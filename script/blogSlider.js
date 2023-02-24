@@ -6,5 +6,14 @@ $('.blogSlider').slick({
     prevArrow: $('.blogPrev'),
     nextArrow: $('.blogNext'),
     appendDots: $('.blogDots'),
+    responsive: [
+        {
+          breakpoint: 767,
+          settings: {
+            slidesToShow: 1.5,
+            slidesToScroll: 1,
+          },
+        },
+      ],
 });
       

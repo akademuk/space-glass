@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link rel="stylesheet" href="style/reset.css">
+    <link href="https://unpkg.com/mocha@4.0.1/mocha.css" rel="stylesheet" />
     <link rel="stylesheet" href="style/fonts.css">
     <link rel="stylesheet" href="style/style.css">
     <title>SPACE GLASS</title>
@@ -260,6 +261,7 @@
                 <p>100+</p>
                 <span>моделей конструктивів</span>
             </div>
+            <div class="line"></div>
             <div class="counterSection">
                 <p>2500+</p>
                 <span>реалізованих проєктів</span>
@@ -268,6 +270,7 @@
                 <p>1 рік</p>
                 <span>гарантії на монтаж</span>
             </div>
+            <div class="line"></div>
             <div class="counterSection">
                 <p>2 роки</p>
                 <span>гарантії на фурнітуру</span>
@@ -278,7 +281,7 @@
     <section class="services">
         <div class="wrapper">
             <h2>Наші послуги</h2>
-            <div class="servicesContainer">
+            <div class="servicesContainer servicesSlider">
                 <div class="servicesContainerSection">
                     <img src="img/services1.png" alt="">
                     <div class="servicesPosition">
@@ -472,6 +475,7 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="line"></div>
                         <div class="catalogueTabsSection">
                             <p class="top red">-45%</p>
                             <img src="img/catalogue3.png" alt="SPACE GLASS">
@@ -526,6 +530,7 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="line"></div>
                         <div class="catalogueTabsSection">
                             <p class="top red">-45%</p>
                             <img src="img/catalogue7.png" alt="SPACE GLASS">
@@ -580,6 +585,7 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="line"></div>
                         <div class="catalogueTabsSection">
                             <p class="top red">-45%</p>
                             <img src="img/catalogue11.png" alt="SPACE GLASS">
@@ -616,21 +622,23 @@
         <div class="wrapper">
             <div class="prodjectTop">
                 <h2>Наші проєкти</h2>
-                <button class="catalogueTabBtn">Всі проєкти
+                <a class="catalogueTabBtn">Всі проєкти
                     <img src="img/arrow.svg" alt="arrow">
-                </button>
+                </a>
             </div>
-            <div class="scrolbar example2-viewport">
-                <div class="prodjectTab example2-content">
-                    <button class="prodjectTabBtn active" data-tab="prodjectTabBtn1">Choice</button>
-                    <button class="prodjectTabBtn" data-tab="prodjectTabBtn2">Osocor</button>
-                    <button class="prodjectTabBtn" data-tab="prodjectTabBtn3">Nofilters</button>
-                    <button class="prodjectTabBtn" data-tab="prodjectTabBtn4">Gagarin Plaza</button>
-                    <button class="prodjectTabBtn" data-tab="prodjectTabBtn5">Maristella</button>
-                    <button class="prodjectTabBtn" data-tab="prodjectTabBtn6">ЖК Міконос</button>
-                    <button class="prodjectTabBtn" data-tab="prodjectTabBtn7">Gagarin Plaza</button>
-                    <button class="prodjectTabBtn" data-tab="prodjectTabBtn8">Maristella</button>
-                    <button class="prodjectTabBtn" data-tab="prodjectTabBtn9">ЖК Міконос</button>
+            <div id="xonly">
+                <div class="scrolbar">
+                    <div class="prodjectTab inner">
+                        <button class="prodjectTabBtn active" data-tab="prodjectTabBtn1">Choice</button>
+                        <button class="prodjectTabBtn" data-tab="prodjectTabBtn2">Osocor</button>
+                        <button class="prodjectTabBtn" data-tab="prodjectTabBtn3">Nofilters</button>
+                        <button class="prodjectTabBtn" data-tab="prodjectTabBtn4">Gagarin Plaza</button>
+                        <button class="prodjectTabBtn" data-tab="prodjectTabBtn5">Maristella</button>
+                        <button class="prodjectTabBtn" data-tab="prodjectTabBtn6">ЖК Міконос</button>
+                        <button class="prodjectTabBtn" data-tab="prodjectTabBtn7">Gagarin Plaza</button>
+                        <button class="prodjectTabBtn" data-tab="prodjectTabBtn8">Maristella</button>
+                        <button class="prodjectTabBtn" data-tab="prodjectTabBtn9">ЖК Міконос</button>
+                    </div>
                 </div>
             </div>
             <div class="prodjectTabContent">
@@ -943,6 +951,9 @@
                 <button class="circle" data-tab="prodjectTabBtn8"></button>
                 <button class="circle" data-tab="prodjectTabBtn9"></button>
             </div>
+            <a class="catalogueTabBtn mobileBtn">Всі проєкти
+                <img src="img/arrow.svg" alt="arrow">
+            </a>
         </div>
     </section><!--Prodject-->
 
@@ -1190,10 +1201,10 @@
                     <img src="img/maps.png" alt="м.Одеса, вул. Глиняна, 5">
                 </div>
                 <div id="contactBtn2" class="contact-content">
-                    <img src="img/bannerSlider1.png" alt="м.Київ, вул. Лауреатська, 8">
+                    <img src="img/maps2.png" alt="м.Київ, вул. Лауреатська, 8">
                 </div>
                 <div id="contactBtn3" class="contact-content">
-                    <img src="img/bannerSlider2.png" alt="м.Львів, вул.Кульпарківська, 144">
+                    <img src="img/maps3.png" alt="м.Львів, вул.Кульпарківська, 144">
                 </div>
             </div>
         </div>
@@ -1276,9 +1287,9 @@
         </div>
     </footer>
 
-   
 
-    <!-- <script src="https://code.jquery.com/jquery-3.6.3.slim.min.js" integrity="sha256-ZwqZIVdD3iXNyGHbSYdsmWP//UBokj2FHAxKuSBKDSo=" crossorigin="anonymous"></script> -->
+    <script src="https://unpkg.com/chai@4.1.2/chai.js"></script>
+    <script src="https://unpkg.com/mocha@4.0.1/mocha.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
@@ -1292,5 +1303,6 @@
     <script src="script/reviewsSlider.js"></script>
     <script src="script/blogSlider.js"></script>
     <script src="script/contactTabs.js"></script>
+    <script src="script/services.js"></script>
 </body>
 </html>

@@ -6,5 +6,22 @@ $('.reviewsSlider').slick({
     prevArrow: $('.reviewsPrev'),
     nextArrow: $('.reviewsNext'),
     appendDots: $('.reviewsDots'),
+    responsive: [
+        {
+          breakpoint: 767,
+          settings: {
+            slidesToShow: 1.5,
+            slidesToScroll: 1,
+          },
+        },
+        {
+            breakpoint: 576,
+            settings: {
+              slidesToShow: 1.5,
+              slidesToScroll: 1,
+              variableWidth: true,
+            },
+          },
+      ],
 });
       
