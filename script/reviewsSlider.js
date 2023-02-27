@@ -1,12 +1,19 @@
 $('.reviewsSlider').slick({
     infinite: false,
-    slidesToShow: 3,
+    slidesToShow: 4,
     slidesToScroll: 1,
     dots:true,
     prevArrow: $('.reviewsPrev'),
     nextArrow: $('.reviewsNext'),
     appendDots: $('.reviewsDots'),
     responsive: [
+      {
+        breakpoint: 1500,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+        },
+      },
         {
           breakpoint: 767,
           settings: {

@@ -2166,11 +2166,33 @@ select {
 .articleMainLeftSpans span:nth-last-of-type(1) {
     margin-right: 0;
 }
-
-
-
-
-
+.articleMainLeft h1 {
+    font-family: 'Nekst';
+    font-weight: 700;
+    font-size: 37px;
+    line-height: 110%;
+    color: #363636;
+    margin-bottom: 16px;
+}
+.articleDate {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.articleDate > span {
+    display: flex;
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 140%;
+    color: #8F8F8F;
+}
+.articleDate > span:nth-of-type(1) img {
+    margin-right: 4px; 
+}
+.articleDate > span:nth-of-type(2) img {
+    margin-left: 4px; 
+}
 
 
 
@@ -2217,7 +2239,6 @@ select {
     .wrapper {
         max-width: 1440px !important;
         width: 100% !important;
-        padding: 0 !important;
         overflow: hidden !important;
         box-sizing: border-box !important;
     }
@@ -2226,6 +2247,17 @@ select {
    }
    .banner .wrapper {
     justify-content: center;
+   }
+   .gallery {
+    width: 32%;
+    margin-bottom: 30px;
+    overflow: hidden;
+   }
+   header  {
+    border-bottom: 1px solid #FFFFFF;
+   }
+   header .wrapper {
+    border-bottom: 0;
    }
 }
 
