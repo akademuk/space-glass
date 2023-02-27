@@ -11,6 +11,13 @@
     <title>SPACE GLASS</title>
 </head>
 <body class="body">
+    <div class="hooks">
+        <div class="wrapper">
+            <p>Ми використовуємо файли cookie на нашому веб-сайті, щоб забезпечити вам найрелевантніший досвід, запам’ятовуючи ваші вподобання та повторні відвідування. Натискаючи «Прийняти все», ви погоджуєтеся на використання ВСІХ файлів cookie.</p>
+            <button class="hooksBtn">Прийняти все</button>
+        </div>
+    </div>
+
     <header class="top-nav">
         <div class="wrapper">
             <div class="logo">
@@ -1288,6 +1295,7 @@
             </div>
         </div>
     </footer>
+
     <script src="https://code.jquery.com/jquery-3.6.2.min.js" crossorigin="anonymous"></script>
     <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> -->
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
@@ -1302,5 +1310,12 @@
     <script src="script/blogSlider.js"></script>
     <script src="script/contactTabs.js"></script>
     <script src="script/services.js"></script>
+    <script>
+        $(function() {                     
+          $(".hooksBtn").click(function() { 
+              $(".hooks").addClass("hooksActive");      
+          });
+          });
+    </script>
 </body>
 </html>
