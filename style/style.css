@@ -1789,12 +1789,10 @@ footer {
 .marginBlogBig {
     margin-bottom: 64px !important;
 }
-
-
-
-
-
-
+/**Offer Page**/
+.marginNone {
+    margin-bottom: 0 !important;
+}
 
 
 
