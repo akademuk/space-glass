@@ -2123,6 +2123,48 @@ select {
 .rotate {
     transform: rotate(180deg);
 }
+/*Article*/
+.grayLink {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 140%;
+    color: #A5A5A5;
+    padding-left: 7px;
+}
+.grayLink2 {
+    padding-right: 8px;
+    border-right: 1px solid #BCBCBC;
+    margin-right: 7px;
+    color: #4C4C4C !important;
+}
+.articlePage {
+    background: #FFFFFF;
+}
+.articleMain {
+    display: flex;
+}
+.articleMainLeftSpans {
+    display: flex;
+    align-items: center;
+}
+.articleMainLeftSpans span {
+    font-family: 'Gilroy';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 140%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #007844;
+    padding: 2px 12px;
+    border: 1px solid #007844;
+    margin-right: 8px;
+}
+.articleMainLeftSpans span:nth-last-of-type(1) {
+    margin-right: 0;
+}
 
 
 
@@ -2170,11 +2212,21 @@ select {
 
 
 
-
-
-
-
-
+@media  (min-width: 1440px) {
+    .wrapper {
+        max-width: 100% !important;
+        width: 100% !important;
+        padding: 0 64px !important;
+        overflow: hidden !important;
+        box-sizing: border-box !important;
+    }
+   .catalogueTabs-content {
+        margin-bottom: 0;
+   }
+   .banner .wrapper {
+    justify-content: center;
+   }
+}
 
 
 
