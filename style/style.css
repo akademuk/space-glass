@@ -1716,18 +1716,79 @@ footer {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+/**Delivery Page**/
+.breadcrumb {
+    padding-top: 122px;
+    height: 49px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 32px;
+}
+.breadcrumbHome {
+    padding-right: 19px;
+    border-right: 1px solid #BCBCBC;
+    margin-right: 8px;
+}
+.breadcrumb a {
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 140%;
+    text-align: center;
+    color: #A5A5A5;
+    text-decoration: none;
+    margin-bottom: -3px;
+}
+.blogPageMain {
+    background: #FFFFFF;
+    box-shadow: 0px 20px 50px rgba(18, 17, 39, 0.08);
+    padding: 32px 24px;
+    margin-bottom: 80px;
+}
+.deliveryPage {
+    background: #F5FFFB;
+}
+.blogPageMain h1 {
+    font-family: 'Nekst';
+    font-weight: 700;
+    font-size: 37px;
+    line-height: 110%;
+    color: #363636;
+    margin-bottom: 64px;
+}
+.blogPageMain h2 {
+    font-family: 'Gilroy';
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 120%;
+    color: #363636;
+    margin-bottom: 16px;
+}
+.blogPageMain p {
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 140%;
+    color: #363636;
+    margin-bottom: 16px;
+}
+.blogPageMain ul {
+    padding-left: 20px;
+    list-style: disc;
+}
+.blogPageMain ul li {
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 140%;
+    color: #363636;
+}
+.marginBlog {
+    margin-bottom: 16px;
+}
+.marginBlogBig {
+    margin-bottom: 64px !important;
+}
 
 
 
@@ -1950,6 +2011,10 @@ footer {
     }
     .installationLeft {
         height: 100%;
+    }
+    .deliveryPage .wrapper {
+        padding: 0 32px;
+        box-sizing: border-box;
     }
 } 
 /* //max-width: 1200px */  
@@ -2867,6 +2932,28 @@ footer {
 }
 .menu.open {
     transform: translateY(68px);
+}
+.deliveryPage .wrapper {
+    padding: 0 16px;
+}
+.breadcrumb {
+    padding-top: 67px;
+    margin-bottom: 8px;
+}
+.blogPageMain h1 {
+    font-size: 29px;
+    line-height: 110%;
+    margin-bottom: 48px;
+}
+.blogPageMain h2 {
+    font-size: 19px;
+    line-height: 140%;
+}
+.blogPageMain {
+    margin-bottom: 0;
+}
+.marginBlogBig {
+    margin-bottom: 48px !important;
 }
 }
 /* //max-width: 576px */  
