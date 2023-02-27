@@ -1705,6 +1705,77 @@ footer {
 .banner .wrapper {
     align-items: flex-start;
 }
+.logoBurger {
+    display: none;
+}
+.top-nav.background .wrapper .logoDesable {
+    display: none;
+}
+.top-nav.background .wrapper .logoBurger {
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2787,6 +2858,15 @@ footer {
 }
 .reviewsSliderItem {
     width: 240px;
+}
+.servicesContainerSection::before {
+    width: 100%;
+}
+.servicesPositionOpacity {
+    opacity: 1 !important;
+}
+.menu.open {
+    transform: translateY(68px);
 }
 }
 /* //max-width: 576px */  
