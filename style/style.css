@@ -2021,6 +2021,7 @@ footer {
 .bannerRight {
     margin-left: 0;
     position: static;
+    margin: 0 auto;
 }
 .bannerLeft h1 {
     width: 100%;
@@ -2952,6 +2953,12 @@ footer {
 }
 .marginBlogBig {
     margin-bottom: 48px !important;
+}
+.slider-for .slick-list {
+    width: 100%;
+}
+.slider-for .slick-list .sliderItem {
+    width: 400px;
 }
 }
 /* //max-width: 576px */  
