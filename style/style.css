@@ -560,7 +560,7 @@ header .wrapper {
 }
 .servicesPosition h3 {
     font-family: 'Gilroy';
-    font-weight: 700;
+    font-weight: bold;
     font-size: 23px;
     line-height: 120%;
     color: #FFFFFF;
@@ -723,7 +723,7 @@ header .wrapper {
     font-family: 'Gilroy';
     position: relative;
     z-index: 10;
-    font-weight: 700;
+    font-weight: bold;
     font-size: 19px;
     line-height: 140%;
     text-align: center;
@@ -873,7 +873,7 @@ header .wrapper {
 .catalogueTabOpacityFlex > p {
     font-family: 'Gilroy';
     font-style: normal;
-    font-weight: 700;
+    font-weight: bold;
     font-size: 19px;
     line-height: 140%;
     color: #363636;
@@ -909,7 +909,7 @@ header .wrapper {
 }
 .catalogueTabsSection > h2 {
     font-family: 'Gilroy';
-    font-weight: 700;
+    font-weight: bold;
     font-size: 19px;
     line-height: 140%;
     color: #363636;
@@ -1075,7 +1075,7 @@ header .wrapper {
 }
 .prodjectContentTop h3 {
     font-family: 'Gilroy';
-    font-weight: 700;
+    font-weight: bold;
     font-size: 23px;
     line-height: 120%;
     color: #363636;
@@ -1175,7 +1175,7 @@ header .wrapper {
 }
 .aboutUsSection p {
     font-family: 'Gilroy';
-    font-weight: 700;
+    font-weight: bold;
     font-size: 37px;
     line-height: 110%;
     color: #363636;
@@ -1317,7 +1317,7 @@ header .wrapper {
 }
 .reviewsSliderItemFlexItem > p {
     font-family: 'Gilroy';
-    font-weight: 700;
+    font-weight: bold;
     font-size: 15px;
     line-height: 140%;
     color: #363636;
@@ -1404,7 +1404,7 @@ header .wrapper {
     background: #CDF0E1;
     border-radius: 100px;
     font-family: 'Gilroy';
-    font-weight: 700;
+    font-weight: bold;
     font-size: 12px;
     line-height: 140%;
     color: #007844;
@@ -1413,7 +1413,7 @@ header .wrapper {
 }
 .blogSliderItemContent h3 {
     font-family: 'Gilroy';
-    font-weight: 700;
+    font-weight: bold;
     font-size: 23px;
     line-height: 120%;
     color: #363636;
@@ -1447,7 +1447,7 @@ header .wrapper {
 }
 .blogSliderItemFlexText > p {
     font-family: 'Gilroy';
-    font-weight: 700;
+    font-weight: bold;
     font-size: 15px;
     line-height: 140%;
     color: #363636;
@@ -1506,7 +1506,7 @@ header .wrapper {
 }
 .contactLeftTabs > p {
     font-family: 'Gilroy';
-    font-weight: 700;
+    font-weight: bold;
     font-size: 23px;
     line-height: 120%;
     color: #363636;
@@ -1527,7 +1527,7 @@ header .wrapper {
 }
 .contactLeftSocial > p {
     font-family: 'Gilroy';
-    font-weight: 700;
+    font-weight: bold;
     font-size: 23px;
     line-height: 120%;
     color: #363636;
@@ -1600,7 +1600,7 @@ footer {
     margin-right: 20px;
 }
 .footerTop > p span {
-    font-weight: 700;
+    font-weight: bold;
 }
 .footerContent {
     display: flex;
@@ -1769,7 +1769,7 @@ footer {
 }
 .blogPageMain h2 {
     font-family: 'Gilroy';
-    font-weight: 700;
+    font-weight: bold;
     font-size: 23px;
     line-height: 120%;
     color: #363636;
@@ -1902,7 +1902,7 @@ footer {
 }
 .main404 .wrapper p {
     font-family: 'Gilroy';
-    font-weight: 700;
+    font-weight: bold;
     font-size: 29px;
     line-height: 110%;
     margin-bottom: 32px;
@@ -1947,7 +1947,7 @@ footer {
 }
 .boldText > p{
     font-family: 'Gilroy';
-    font-weight: 700 !important;
+    font-weight: bold !important;
     font-size: 37px !important;
     line-height: 110%;
     color: #363636;
@@ -2156,7 +2156,7 @@ select {
 }
 .articleMainLeftSpans span {
     font-family: 'Gilroy';
-    font-weight: 700;
+    font-weight: bold;
     font-size: 12px;
     line-height: 140%;
     display: flex;
@@ -2279,7 +2279,7 @@ select {
 }
 .articleBlueContentText h3 {
     font-family: 'Gilroy';
-    font-weight: 700;
+    font-weight: bold;
     font-size: 19px;
     line-height: 140%;
     color: #363636;
@@ -2298,7 +2298,7 @@ select {
 .articleMainLeft h2 {
     margin: 40px 0 16px 0;
     font-family: 'Gilroy';
-    font-weight: 700;
+    font-weight: bold;
     font-size: 23px;
     line-height: 120%;
     color: #363636;
@@ -2310,7 +2310,7 @@ select {
 }
 .articleGreen h3 {
     font-family: 'Gilroy';
-    font-weight: 700;
+    font-weight: bold;
     font-size: 15px;
     line-height: 140%;
     color: #363636;
@@ -2341,7 +2341,7 @@ select {
 }
 .articleMainRight h2 {
     font-family: 'Gilroy';
-    font-weight: 700;
+    font-weight: bold;
     font-size: 23px;
     line-height: 120%;
     color: #363636;
@@ -2607,7 +2607,7 @@ select {
     margin-bottom: 24px;
 }
 .historyTopLeft p strong {
-    font-weight: 700;
+    font-weight: bold;
 }
 .historyTop {
     display: flex;
@@ -2637,7 +2637,7 @@ select {
     margin-bottom: 24px;
 }
 .historyBottomRight p strong {
-    font-weight: 700; 
+    font-weight: bold; 
 }
 .teamSliderItem {
     background: #FFFFFF;
@@ -2664,7 +2664,7 @@ select {
 }
 .teamSliderItemContent p {
     font-family: 'Gilroy';
-    font-weight: 700;
+    font-weight: bold;
     font-size: 19px;
     line-height: 140%;
     color: #363636;
@@ -4200,7 +4200,7 @@ header {
 .aboutUsSection > p {
     font-size: 29px;
     line-height: 110%;
-    font-weight: 700;
+    font-weight: bold;
     margin-bottom: 10px;
 }
 .reviews {
