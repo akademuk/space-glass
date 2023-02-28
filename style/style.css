@@ -559,8 +559,7 @@ header .wrapper {
     justify-content: space-between;
 }
 .servicesPosition h3 {
-    font-family: 'Gilroy';
-    font-weight: bold;
+    font-family: 'Gilroy-Bold';
     font-size: 23px;
     line-height: 120%;
     color: #FFFFFF;
@@ -871,9 +870,7 @@ header .wrapper {
     background: #EB5757;
 }
 .catalogueTabOpacityFlex > p {
-    font-family: 'Gilroy';
-    font-style: normal;
-    font-weight: bold;
+    font-family: 'Gilroy-Bold';
     font-size: 19px;
     line-height: 140%;
     color: #363636;
@@ -908,8 +905,7 @@ header .wrapper {
     transition: all 0.3s ease-in-out;
 }
 .catalogueTabsSection > h2 {
-    font-family: 'Gilroy';
-    font-weight: bold;
+    font-family: 'Gilroy-Bold';
     font-size: 19px;
     line-height: 140%;
     color: #363636;
