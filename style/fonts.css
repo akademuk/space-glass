@@ -23,7 +23,7 @@
     font-display: swap;
 }
 @font-face {
-    font-family: 'Gilroy-Bold';
+    font-family: 'Gilroy';
     src: url('../fonts/Gilroy-Bold.eot');
     src: local('Gilroy Bold'), local('Gilroy Bold'),
         url('../fonts/Gilroy-Bold.eot?#iefix') format('embedded-opentype'),
