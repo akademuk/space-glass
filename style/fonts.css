@@ -52,7 +52,7 @@
 @font-face {
     font-family: 'Nekst';
     src: url('../fonts/Nekst-Regular.eot');
-    src: local('Nekst Regular'), local('Gilroy-Regular'),
+    src: local('Nekst Regular'), local('Nekst Regular'),
         url('../fonts/Nekst-Regular.eot?#iefix') format('embedded-opentype'),
         url('../fonts/Nekst-Regular.woff2') format('woff2'),
         url('../fonts/Nekst-Regular.woff') format('woff'),
@@ -64,7 +64,7 @@
 @font-face {
     font-family: 'Nekst';
     src: url('../fonts/Nekst-Medium.eot');
-    src: local('Nekst Medium'), local('Gilroy-Regular'),
+    src: local('Nekst Medium'), local('Nekst Medium'),
         url('../fonts/Nekst-Medium.eot?#iefix') format('embedded-opentype'),
         url('../fonts/Nekst-Medium.woff2') format('woff2'),
         url('../fonts/Nekst-Medium.woff') format('woff'),
@@ -76,7 +76,7 @@
 @font-face {
     font-family: 'Nekst';
     src: url('../fonts/Nekst-Bold.eot');
-    src: local('Nekst Bold'), local('Gilroy-Regular'),
+    src: local('Nekst Bold'), local('Nekst Bold'),
         url('../fonts/Nekst-Bold.eot?#iefix') format('embedded-opentype'),
         url('../fonts/Nekst-Bold.woff2') format('woff2'),
         url('../fonts/Nekst-Bold.woff') format('woff'),
