@@ -71,7 +71,7 @@ header {
     box-sizing: border-box;
     background: url(../img/Rectangle.png),#007844;
     background-repeat: repeat;
-    background-size: contain;
+    background-size: auto;
     z-index: 100;
     transition: all 0.3s ease-in-out;
     height: 122px;
@@ -79,7 +79,7 @@ header {
 .banner {
     background: url(../img/Rectangle.png),#007844;
     background-repeat: repeat;
-    background-size: contain;
+    background-size: auto;
     width: 100%;
     padding-top: 167px;
     padding-bottom: 45px;
@@ -207,7 +207,7 @@ header .wrapper {
 }
 .menuGreen {
     font-family: 'Nekst';
-    font-weight: 700;
+    font-weight: bold;
     font-size: 23px;
     line-height: 110%;
     min-height: 50px;
@@ -330,7 +330,7 @@ header .wrapper {
 }
 .bannerLeft h1 {
     font-family: 'Nekst';
-    font-weight: 700;
+    font-weight: bold;
     font-size: 47px;
     line-height: 140%;
     text-transform: uppercase;
@@ -504,7 +504,7 @@ header .wrapper {
 }
 .services .wrapper h2 {
     font-family: 'Nekst';
-    font-weight: 700;
+    font-weight: bold;
     font-size: 37px;
     line-height: 110%;
     color: #363636;
@@ -648,7 +648,7 @@ header .wrapper {
 }
 .installationRight h2 {
     font-family: 'Nekst';
-    font-weight: 700;
+    font-weight: bold;
     font-size: 37px;
     line-height: 110%;
     color: #363636;
@@ -676,7 +676,7 @@ header .wrapper {
 }
 .reliableLeft h2 {
     font-family: 'Nekst';
-    font-weight: 700;
+    font-weight: bold;
     font-size: 37px;
     line-height: 110%;
     color: #363636;
@@ -923,7 +923,7 @@ header .wrapper {
 }
 .catalogue .wrapper > h2 {
     font-family: 'Nekst';
-    font-weight: 700;
+    font-weight: bold;
     font-size: 37px;
     line-height: 110%;
     color: #363636;
@@ -1000,7 +1000,7 @@ header .wrapper {
 }
 .prodjectTop h2 {
     font-family: 'Nekst';
-    font-weight: 700;
+    font-weight: bold;
     font-size: 37px;
     line-height: 110%;
     color: #363636;
@@ -1031,7 +1031,7 @@ header .wrapper {
     width: 16%;
     padding: 0 0;
     font-family: 'Nekst';
-    font-weight: 700;
+    font-weight: bold;
     font-size: 23px;
     line-height: 110%;
     color: #8F8F8F;
@@ -1224,7 +1224,7 @@ header .wrapper {
 }
 .reviewsTop h2 {
     font-family: 'Nekst';
-    font-weight: 700;
+    font-weight: bold;
     font-size: 37px;
     line-height: 110%;
     color: #FFFFFF;
@@ -1495,7 +1495,7 @@ header .wrapper {
 }
 .contactLeft h2{
     font-family: 'Nekst';
-    font-weight: 700;
+    font-weight: bold;
     font-size: 37px;
     line-height: 110%;
     color: #363636;
@@ -1761,7 +1761,7 @@ footer {
 }
 .blogPageMain h1 {
     font-family: 'Nekst';
-    font-weight: 700;
+    font-weight: bold;
     font-size: 37px;
     line-height: 110%;
     color: #363636;
@@ -1894,7 +1894,7 @@ footer {
 .main404 .wrapper h1 {
     font-family: 'Nekst';
     font-style: normal;
-    font-weight: 700;
+    font-weight: bold;
     font-size: 375px;
     line-height: 110%;
     color: #FFFFFF;
@@ -2172,7 +2172,7 @@ select {
 }
 .articleMainLeft h1 {
     font-family: 'Nekst';
-    font-weight: 700;
+    font-weight: bold;
     font-size: 37px;
     line-height: 110%;
     color: #363636;
@@ -2592,7 +2592,7 @@ select {
 }
 .historyTop .historyTopLeft h2 {
     font-family: 'Nekst';
-    font-weight: 700;
+    font-weight: bold;
     font-size: 37px;
     line-height: 110%;
     color: #363636;
@@ -2652,7 +2652,7 @@ select {
 }
 .team .wrapper h2 {
     font-family: 'Nekst';
-    font-weight: 700;
+    font-weight: bold;
     font-size: 37px;
     line-height: 110%;
     color: #363636;
@@ -2736,7 +2736,7 @@ select {
 }
 .articleMainRightForm h2 {
     font-family: 'Nekst';
-    font-weight: 700;
+    font-weight: bold;
     font-size: 37px;
     line-height: 110%;
     color: #363636;
@@ -2772,7 +2772,7 @@ select {
 }
 .cooperation .wrapper h2 {
     font-family: 'Nekst';
-    font-weight: 700;
+    font-weight: bold;
     font-size: 37px;
     line-height: 110%;
     color: #363636;
