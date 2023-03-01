@@ -701,7 +701,7 @@ header .wrapper {
     padding: 50px 0;
 }
 .reliableRightSection {
-    width: 240px;
+    width: 48%;
     height: 230px;
     display: flex;
     position: relative;
@@ -3377,6 +3377,9 @@ select {
     .slider-wrapper {
         width: 100%;
     }
+    .reliableRightSection {
+        width: 45%;
+    }
 } 
 /* //max-width: 1200px */  
 
@@ -3744,6 +3747,15 @@ footer {
 }
 .articleMainLeft {
     width: 100%;
+}
+.reliableRightSection {
+    width: 23%;
+    margin-top: 0 !important;
+    margin-right: 0 !important;
+    box-shadow: none;
+}
+.reliableRight {
+    justify-content: space-between;
 }
 } 
 /* //max-width: 991px */  
