@@ -1740,6 +1740,9 @@ footer {
     align-items: center;
     margin-bottom: 32px;
 }
+.textdecoration {
+    text-decoration: underline;
+}
 .breadcrumbHome {
     padding-right: 19px;
     border-right: 1px solid #BCBCBC;
@@ -1864,8 +1867,16 @@ footer {
     z-index: 20;
 }
 .hooksActive {
-    opacity: 0;
+    display: none;
     transition: all 1s ease-out;
+}
+.materialsTopLink {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 140%;
+    color: #4C4C4C;
 }
 .hooksBtn:hover {
     transition: all 0.3s;
@@ -1885,7 +1896,8 @@ footer {
     background-size: cover;
     background-position: center;
     height: 900px;
-    padding-top: 500px;
+    padding-top: 300px;
+    box-sizing: border-box;
 }
 .header404 {
     position: static;
@@ -2207,10 +2219,13 @@ select {
     overflow-y: scroll;
     background: #FFFFFF;
     box-shadow: 0px 20px 50px rgba(18, 17, 39, 0.08);
-    width: 67%;
+    width: 68%;
     margin-right: 20px;
     padding: 34px 24px;
     box-sizing: border-box;
+}
+.articleMainRight {
+    width: 32%;
 }
 .articleImg {
     display: block;
@@ -2236,7 +2251,7 @@ select {
 .articleBlueContent {
     display: flex;
     width: 100%;
-    height: 150px;
+    height: 110px;
     overflow: hidden;
     background: #CDF0E1;
     box-sizing: border-box;
@@ -2296,9 +2311,6 @@ select {
     font-size: 15px;
     line-height: 140%;
     color: #626262;
-}
-.articleBlueContentText {
-    padding: 16px 0;
 }
 .articleMainLeft h2 {
     margin: 40px 0 16px 0;
@@ -2565,14 +2577,23 @@ select {
     padding-top: 0;
 }
 .bannerAboutUsFlex .bannerRight {
-    height: 432px;
+    height: 100%;
+    width: 580px;
 }
 .bannerAboutUsFlex .bannerRight img{
     height: 100%;
+    width: 100%;
+    max-width: 100%;
     object-fit: cover;
+}
+.bannerAboutUsFlex .bannerLeft {
+    width: 100%;
 }
 .counterAboutUs .wrapper{
     max-width: max-content !important;
+}
+.bannerAboutUsFlex .bannerLeft {
+    width: 49%;
 }
 .counterAboutUs .wrapper .counterSection {
     width: 210px;
@@ -2624,6 +2645,9 @@ select {
 .historyTopRight {
     height: 330px;
 }
+.bannerAboutUsFlex .bannerLeft h1 {
+    font-size: 49px;
+}
 .historyBottom {
     display: flex;
 }
@@ -2646,7 +2670,7 @@ select {
 }
 .teamSliderItem {
     background: #FFFFFF;
-    box-shadow: 0px 20px 50px rgba(18, 17, 39, 0.08);
+    box-shadow: 0px 13px 17px rgba(18, 17, 39, 0.08);
 }
 .team {
     padding: 80px 0 0 0;
@@ -3067,21 +3091,159 @@ select {
     color: #FFFFFF;
 }
 .materials .wrapper {
+    padding-bottom: 80px;
     border-bottom: 1px solid #D2D2D2;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
+.articleMainRightForm h2 {
+    font-family: 'Nekst';
+    font-weight: bold;
+    font-size: 23px;
+    color: #363636;
+    text-align: left;
+}
+.teamSlider .slick-slide {
+    padding-bottom: 0;
+}
+.caseForm {
+    padding-top: 80px;
+}
+.caseForm .wrapper {
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-bottom: 1px solid #D2D2D2;
+}
+.caseFormLeft {
+    width: 50%;
+    margin-right: 20px;
+    background: url(../img/Group.svg), #fff;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 24px 40px;
+    box-shadow: 0px 20px 50px rgba(18, 17, 39, 0.08);
+    padding: 80px 24px 35px 24px;
+    box-sizing: border-box;
+}
+.caseFormLeft > p {
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 140%;
+    color: #363636;
+    margin-bottom: 32px;
+}
+.caseFormLeftFlex {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.caseFormLeftFlexText > p {
+    font-family: 'Gilroy';
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 140%;
+    color: #363636;
+}
+.caseFormLeftFlexText > span {
+    font-family: 'Gilroy';
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 21px;
+    color: #007844;
+}
+.caseFormRight {
+    width: 380px;
+    margin-right: 100px;
+}
+.caseFormRight .articleMainRightForm {
+    margin-top: 0;
+    background: transparent;
+    padding: 0;
+    box-shadow: none;
+}
+.caseFormRight .articleMainRightForm h2 {
+    font-family: 'Nekst';
+    font-weight: bold;
+    font-size: 37px;
+    line-height: 110%;
+    color: #363636;
+    text-align: center;
+    margin-bottom: 16px;
+    margin-top: 20px;
+}
+.caseFormRight .articleMainRightForm > p {
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 140%;
+    text-align: center;
+    color: #626262;
+    margin-bottom: 32px;
+}
+.caseFormRight .articleMainRightForm form {
+    padding: 40px 24px;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 50px rgba(18, 17, 39, 0.08);
+    box-sizing: border-box;
+}
+.otherProjects {
+    padding-top: 80px;
+}
+.otherProjects .wrapper {
+    padding-bottom: 80px;
+}
+.otherProjectsSliderItem {
+    position: relative;
+}
+.otherProjectsSliderItemPosition {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    left: 0;
+    transform: translateY(-50%);
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.otherProjectsSliderItemImg {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+}
+.otherProjectsSlider .slick-slide {
+    margin: 0 10px;
+}
+.otherProjectsSlider .slick-list {
+    margin: 0 -10px;
+}
+.otherProjectsSliderDots {
+    position: relative;
+    z-index: 2;
+}
+.otherProjectsSliderDots .slick-dots{
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+.otherProjectsSliderDots .slick-dots li {
+    width: 10px;
+    height: 10px;
+    background: #E9E9E9;
+    border-radius: 50%;
+    margin-right: 8px;
+    cursor: pointer;
+}
+.otherProjectsSliderDots .slick-dots li button{
+    background: transparent;
+    border: none;
+    font-size: 0;
+}
+.otherProjectsSliderDots .slick-dots li.slick-active {
+    background: #68C39C;
+}
 
 
 
@@ -3150,6 +3312,9 @@ select {
     }
     .articlePage {
         padding-bottom: 80px;
+    }
+    .otherProjects .wrapper {
+        padding: 0 32px 80px 32px;
     }
     .cooperationSliderItem  img {
         max-width: 100%;
@@ -3379,6 +3544,15 @@ select {
     }
     .reliableRightSection {
         width: 45%;
+    }
+    .caseForm .wrapper {
+        padding: 0 32px;
+    }
+    .caseFormRight {
+        margin-right: 0;
+    }
+    .caseForm .wrapper {
+        padding: 0 32px 80px 32px;
     }
 } 
 /* //max-width: 1200px */  
@@ -3757,6 +3931,9 @@ footer {
 .reliableRight {
     justify-content: space-between;
 }
+.caseFormRight .articleMainRightForm {
+    width: 100%;
+}
 } 
 /* //max-width: 991px */  
 
@@ -4108,6 +4285,17 @@ footer {
     .bannerAboutUs {
         padding-top: 125px;
     }
+    .caseForm .wrapper {
+        flex-direction: column;
+    }
+    .caseFormLeft {
+        width: 100%;
+        margin-right: 0;
+    }
+    .caseFormRight {
+        width: 100%;
+        margin-top: 20px;
+    }
 
 } 
 /* //max-width: 768px */  
@@ -4132,8 +4320,29 @@ footer {
 .materials {
     padding-top: 64px;
 }
+.caseFormRight .articleMainRightForm > p {
+    margin-bottom: 0;
+}
+.caseForm .wrapper {
+    padding-bottom: 64px;
+}
+.caseFormRight .articleMainRightForm form {
+    padding: 20px 12px;
+}
+.caseFormLeft {
+    padding:80px 12px 40px 12px;
+}
 .materialsTop h2 {
     font-size: 29px;
+}
+.caseForm {
+    padding-top: 64px;
+}
+.caseFormRight .articleMainRightForm h2 {
+    font-size: 29px;
+}
+.caseFormLeft > p {
+    font-size: 12px;
 }
 .bannerCaseContentLeft > p {
     font-size: 16px;
