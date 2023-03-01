@@ -19,6 +19,7 @@ $('.blogSlider').slick({
           settings: {
             slidesToShow: 1.5,
             slidesToScroll: 1,
+            variableWidth: true,
           },
         },
       ],
