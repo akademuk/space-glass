@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/fonts.css">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Case</title>
+</head>
+<body>
+    <div class="hooks">
+        <div class="wrapper">
+            <p>Ми використовуємо файли cookie на нашому веб-сайті, щоб забезпечити вам найрелевантніший досвід, запам’ятовуючи ваші вподобання та повторні відвідування. Натискаючи «Прийняти все», ви погоджуєтеся на використання ВСІХ файлів cookie.</p>
+            <button class="hooksBtn">Прийняти все</button>
+        </div>
+    </div><!--Hooks-->
+
+    <header class="top-nav haderCase">
+        <div class="wrapper">
+            <div class="logo">
+                <a href="#">
+                    <img src="img/Logo.png" class="logoDesable" alt="SPACE GLASS">
+                </a>
+                <a href="#">
+                    <img src="img/logoBlack.png" class="logoBurger" alt="SPACE GLASS">
+                </a>
+            </div>
+            <nav class="top-navigation">
+                <ul>
+                    <li>
+                        <a href="#">Головна</a>
+                    </li>
+                    <li>
+                        <a href="#">Про нас</a>
+                    </li>
+                    <li>
+                        <a href="#">Каталог</a>
+                    </li>
+                </ul>
+            </nav>
+            <nav class="top-social">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M5.8 0H14.2C17.4 0 20 2.6 20 5.8V14.2C20 15.7383 19.3889 17.2135 18.3012 18.3012C17.2135 19.3889 15.7383 20 14.2 20H5.8C2.6 20 0 17.4 0 14.2V5.8C0 4.26174 0.61107 2.78649 1.69878 1.69878C2.78649 0.61107 4.26174 0 5.8 0ZM5.6 2C4.64522 2 3.72955 2.37928 3.05442 3.05442C2.37928 3.72955 2 4.64522 2 5.6V14.4C2 16.39 3.61 18 5.6 18H14.4C15.3548 18 16.2705 17.6207 16.9456 16.9456C17.6207 16.2705 18 15.3548 18 14.4V5.6C18 3.61 16.39 2 14.4 2H5.6ZM15.25 3.5C15.5815 3.5 15.8995 3.6317 16.1339 3.86612C16.3683 4.10054 16.5 4.41848 16.5 4.75C16.5 5.08152 16.3683 5.39946 16.1339 5.63388C15.8995 5.8683 15.5815 6 15.25 6C14.9185 6 14.6005 5.8683 14.3661 5.63388C14.1317 5.39946 14 5.08152 14 4.75C14 4.41848 14.1317 4.10054 14.3661 3.86612C14.6005 3.6317 14.9185 3.5 15.25 3.5ZM10 5C11.3261 5 12.5979 5.52678 13.5355 6.46447C14.4732 7.40215 15 8.67392 15 10C15 11.3261 14.4732 12.5979 13.5355 13.5355C12.5979 14.4732 11.3261 15 10 15C8.67392 15 7.40215 14.4732 6.46447 13.5355C5.52678 12.5979 5 11.3261 5 10C5 8.67392 5.52678 7.40215 6.46447 6.46447C7.40215 5.52678 8.67392 5 10 5ZM10 7C9.20435 7 8.44129 7.31607 7.87868 7.87868C7.31607 8.44129 7 9.20435 7 10C7 10.7956 7.31607 11.5587 7.87868 12.1213C8.44129 12.6839 9.20435 13 10 13C10.7956 13 11.5587 12.6839 12.1213 12.1213C12.6839 11.5587 13 10.7956 13 10C13 9.20435 12.6839 8.44129 12.1213 7.87868C11.5587 7.31607 10.7956 7 10 7Z" fill="white"/>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <svg width="22" height="18" viewBox="0 0 22 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M19.7097 0.654509C19.7097 0.654509 21.6522 -0.102992 21.4897 1.73651C21.4362 2.49401 20.9507 5.14551 20.5727 8.01301L19.2777 16.508C19.2777 16.508 19.1697 17.7525 18.1982 17.969C17.2272 18.185 15.7702 17.2115 15.5002 16.995C15.2842 16.8325 11.4532 14.3975 10.1042 13.2075C9.72617 12.8825 9.29417 12.2335 10.1582 11.476L15.8237 6.06501C16.4712 5.41601 17.1187 3.90101 14.4207 5.74051L6.86567 10.8805C6.86567 10.8805 6.00217 11.422 4.38367 10.935L0.875671 9.85251C0.875671 9.85251 -0.41933 9.04101 1.79317 8.22951C7.18967 5.68651 13.8272 3.08951 19.7087 0.654509H19.7097Z" fill="white"/>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <nav class="top-button">
+                <ul>
+                    <li>
+                        <a href="tel:0675017793">+38 (067) 501 77 93</a>
+                    </li>
+                    <li>
+                        <a href="tel:0505594748">+38 (050) 559 47 48</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="headerButton">
+                <button>
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M22.0605 21.4609L15.8624 15.2628C17.1498 13.8334 17.941 11.9488 17.941 9.87818C17.941 5.43215 14.3238 1.81494 9.87773 1.81494C5.43166 1.81494 1.81445 5.43215 1.81445 9.87822C1.81445 14.3243 5.43166 17.9415 9.87773 17.9415C11.9483 17.9415 13.8329 17.1503 15.2623 15.8629L21.4604 22.061C21.5433 22.1438 21.6519 22.1853 21.7605 22.1853C21.869 22.1853 21.9776 22.1438 22.0605 22.061C22.2263 21.8952 22.2263 21.6266 22.0605 21.4609ZM9.87773 17.0927C5.89998 17.0927 2.66324 13.8564 2.66324 9.87822C2.66324 5.90007 5.89998 2.66369 9.87773 2.66369C13.8555 2.66369 17.0922 5.90003 17.0922 9.87822C17.0922 13.8564 13.8555 17.0927 9.87773 17.0927Z" fill="#E9E9E9"/>
+                    </svg>
+                </button>
+                <button>
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M2.76914 9.40012H21.2301V8.08248H2.76914V9.40012ZM20.8268 9.00878V9.58722H22.1848V9.00878H20.8268ZM18.6349 19.9413H5.36433V21.2589H18.6349V19.9413ZM3.17248 9.58722V9.00878H1.81445V9.58722H3.17248ZM5.74729 20.1705C4.05397 16.8845 3.17243 13.2611 3.17248 9.58722H1.81445C1.81445 13.4664 2.7447 17.2915 4.53322 20.7608L5.74729 20.1705ZM5.36433 19.9413C5.52729 19.9413 5.67532 20.0309 5.74729 20.1705L4.53322 20.7608C4.61053 20.9105 4.7292 21.0363 4.87597 21.1242C5.02274 21.2122 5.19182 21.2588 5.36433 21.2589V19.9413ZM18.252 20.1705C18.2876 20.1016 18.3422 20.0436 18.4099 20.0031C18.4775 19.9626 18.5555 19.9412 18.6349 19.9413V21.2589C18.988 21.2589 19.3085 21.0665 19.4661 20.7608L18.252 20.1705ZM20.8268 9.58722C20.8268 13.2608 19.9441 16.8843 18.252 20.1705L19.4661 20.7608C21.254 17.2916 22.1849 13.466 22.1848 9.58722H20.8268ZM21.2301 9.40012C21.1232 9.40012 21.0206 9.35889 20.9449 9.2855C20.8693 9.21211 20.8268 9.11257 20.8268 9.00878H22.1848C22.1848 8.76311 22.0842 8.5275 21.9052 8.35378C21.7262 8.18007 21.4833 8.08248 21.2301 8.08248V9.40012ZM2.76914 8.08248C2.51594 8.08248 2.27312 8.18007 2.09408 8.35378C1.91504 8.5275 1.81445 8.76311 1.81445 9.00878H3.17248C3.17248 9.11257 3.12998 9.21211 3.05434 9.2855C2.9787 9.35889 2.87612 9.40012 2.76914 9.40012V8.08248ZM7.15013 9.07993L11.2242 2.49172L10.0577 1.81445L5.98359 8.40266L7.15013 9.07993ZM12.7751 2.49172L16.8491 9.07993L18.0143 8.40266L13.9403 1.81445L12.7751 2.49172Z" fill="#E9E9E9"/>
+                    </svg>
+                </button>
+            </div>
+            <input id="menu-toggle" type="checkbox" />
+            <label class='menu-button-container' for="menu-toggle">
+                    <div class='menu-button'></div>
+            </label> 
+        </div>
+    </header><!--Header-->
+
+    <div class="menu">
+        <div class="wrapper">
+            <div class="menuTop">
+                <ul>
+                    <li class="menuGreen">Душові кабінки</li>
+                    <li>
+                        <a href="#">Монтаж</a>
+                    </li>
+                    <li>
+                        <a href="#">Продаж</a>
+                    </li>
+                    <li>
+                        <a href="#">Обслуговування</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="menuGreen">Безрамне скління</li>
+                    <li>
+                        <a href="#">Терас</a>
+                    </li>
+                    <li>
+                        <a href="#">Офісів</a>
+                    </li>
+                    <li>
+                        <a href="#">Балконів</a>
+                    </li>
+                    <li>
+                        <a href="#">Фасадів</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="menuGreen">Перегородки</li>
+                    <li>
+                        <a href="#">У ванну кімнату</a>
+                    </li>
+                    <li>
+                        <a href="#">Книжкою</a>
+                    </li>
+                    <li>
+                        <a href="#">Суцільна</a>
+                    </li>
+                    <li>
+                        <a href="#">Гармошкою</a>
+                    </li>
+                    <li>
+                        <a href="#">Розувна</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="menuGreen">Монтаж конструкцій</li>
+                    <li>
+                        <a href="#">Душових кабін</a>
+                    </li>
+                    <li>
+                        <a href="#">Склінних дверей</a>
+                    </li>
+                    <li>
+                        <a href="#">Перегородок</a>
+                    </li>
+                    <li>
+                        <a href="#">Скліних сходів</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="menuGreen">Консультація та супровід</li>
+                    <li>
+                        <a href="#">Вибір конструкції</a>
+                    </li>
+                    <li>
+                        <a href="#">Виклик майстра</a>
+                    </li>
+                    <li>
+                        <a href="#">Монтажні роботи</a>
+                    </li>
+                    <li>
+                        <a href="#">Експлутація</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="menuGreen">Технічне обсуловування</li>
+                    <li>
+                        <a href="#">Душових кабінок</a>
+                    </li>
+                    <li>
+                        <a href="#">Скляних дверей</a>
+                    </li>
+                    <li>
+                        <a href="#">Перегородок</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="menuBottom">
+                <ul>
+                    <li>
+                        <a href="#">Наші роботи</a>
+                    </li>
+                    <li>
+                        <a href="#">Відгуки</a>
+                    </li>
+                    <li>
+                        <a href="blog.html">Блог</a>
+                    </li>
+                    <li>
+                        <a href="#">Контакти</a>
+                    </li>
+                    <li>
+                        <a href="delivery.html">Доставка і оплата</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div><!--Burger Menu-->
+
+    <section class="bannerCase">
+        <div class="wrapper">
+            <div class="breadcrumb">
+                <a href="index.html" class="breadcrumbHome">
+                    <img src="img/homeWhite.svg" alt="home">
+                </a>
+                <a href="#" class="grayLink2">
+                    Наші роботи
+                </a>
+                <a href="#" class="grayLink">
+                    Choice магазин м. Київ
+                </a>
+            </div>
+            <div class="bannerCaseContent">
+                <div class="bannerCaseContentLeft">
+                    <h2>Choice магазин м. Київ.</h2>
+                    <p>Засклення магазину в торговому центрі.</p>
+                    <div class="bannerCaseContentLeftLogo">
+                        <img src="img/prodjectLogo1.png" alt="Choice">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud </p>
+                    </div>
+                    <h3>Завдання:</h3>
+                    <p class="bannerCaseContentH3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+                    <h3>Рішення:</h3>
+                    <p  class="bannerCaseContentH3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+                    <div class="bannerCaseContentLeftFlex">
+                        <div class="bannerCaseContentLeftFlexCon">
+                            <p>2020</p>
+                            <span>рік</span>
+                        </div>
+                        <div class="bannerCaseContentLeftFlexCon">
+                            <p>5</p>
+                            <span>місяців</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="bannerCaseContentRight">
+                    <div class="slider-wrapper">
+                        <div class="slider-for">
+                            <div class="slider-for__item ex1" data-src="img/bannerSlider1.png">
+                                <img src="img/bannerSlider1.png" alt="" />
+                            </div>
+                      
+                            <div class="slider-for__item ex1" data-src="img/bannerSlider4.png">
+                                <img src="img/bannerSlider4.png" alt="" />
+                            </div>
+                      
+                            <div class="slider-for__item ex1" data-src="img/bannerSlider5.png">
+                                <img src="img/bannerSlider5.png" alt="" />
+                            </div>
+                      
+                            <div class="slider-for__item ex1" data-src="img/catalogue1.png">
+                                <img src="img/catalogue1.png" alt="" />
+                            </div>
+                        </div>
+                      
+                        <div class="slider-nav">
+                            <div class="slider-nav__item">
+                                <img src="img/catalogue1.png" alt="" />
+                            </div>
+                      
+                            <div class="slider-nav__item">
+                                <img src="img/bannerSlider4.png" alt="" />
+                            </div>
+                      
+                            <div class="slider-nav__item">
+                                <img src="img/bannerSlider5.png" alt="" />
+                            </div>
+                      
+                            <div class="slider-nav__item">
+                                <img src="img/catalogue1.png" alt="" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="caseSlider"></div>
+                </div>
+            </div>
+        </div>
+    </section><!--Banner Case-->
+
+    <section class="materials">
+        <div class="wrapper">
+            <div class="materialsTop">
+                <h2>Використані матеріали:</h2>
+                <a class="materialsTopLink">Всі проєкти
+                    <img src="img/grayArrows.svg" alt="arrow">
+                </a>
+            </div>
+            <div class="materialsSlider">
+                <div class="materialsSliderItem">
+                    <img src="img/article1.png" alt="Використані матеріали:">
+                    <div class="materialsSliderItemFlex">
+                        <h3>Вид скла</h3>
+                        <p>Категорія душових</p>
+                    </div>
+                </div>
+                <div class="materialsSliderItem">
+                    <img src="img/article1.png" alt="Використані матеріали:">
+                    <div class="materialsSliderItemFlex">
+                        <h3>Вид скла</h3>
+                        <p>Категорія душових</p>
+                    </div>
+                </div>
+                <div class="materialsSliderItem">
+                    <img src="img/article1.png" alt="Використані матеріали:">
+                    <div class="materialsSliderItemFlex">
+                        <h3>Вид скла</h3>
+                        <p>Категорія душових</p>
+                    </div>
+                </div>
+                <div class="materialsSliderItem">
+                    <img src="img/article1.png" alt="Використані матеріали:">
+                    <div class="materialsSliderItemFlex">
+                        <h3>Вид скла</h3>
+                        <p>Категорія душових</p>
+                    </div>
+                </div>
+                <div class="materialsSliderItem">
+                    <img src="img/article1.png" alt="Використані матеріали:">
+                    <div class="materialsSliderItemFlex">
+                        <h3>Вид скла</h3>
+                        <p>Категорія душових</p>
+                    </div>
+                </div>
+                <div class="materialsSliderItem">
+                    <img src="img/article1.png" alt="Використані матеріали:">
+                    <div class="materialsSliderItemFlex">
+                        <h3>Вид скла</h3>
+                        <p>Категорія душових</p>
+                    </div>
+                </div>
+                <div class="materialsSliderItem">
+                    <img src="img/article1.png" alt="Використані матеріали:">
+                    <div class="materialsSliderItemFlex">
+                        <h3>Вид скла</h3>
+                        <p>Категорія душових</p>
+                    </div>
+                </div>
+                <div class="materialsSliderItem">
+                    <img src="img/article1.png" alt="Використані матеріали:">
+                    <div class="materialsSliderItemFlex">
+                        <h3>Вид скла</h3>
+                        <p>Категорія душових</p>
+                    </div>
+                </div>
+            </div>
+            <div class="materialsSliderDots"></div>
+        </div>
+    </section><!--Materials-->
+
+    <section class="caseForm">
+        <div class="wrapper">
+            <div class="caseFormLeft">
+                
+            </div>
+            <div class="caseFormRight"></div>
+        </div>
+    </section><!--Case Form-->
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.2.min.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="script/burger.js"></script>
+    <script src="script/contactTabs.js"></script>
+    <script src="script/teamSlider.js"></script>
+    <script src="script/cooperation.js"></script>
+    <script src="script/sliderCase.js"></script>
+    <script src="script/materialsSlider.js"></script>
+    <script>
+        $(function() {                     
+          $(".hooksBtn").click(function() { 
+              $(".hooks").addClass("hooksActive");      
+          });
+          });
+    </script>
+</body>
+</html>
