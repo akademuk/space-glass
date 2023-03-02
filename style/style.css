@@ -4933,7 +4933,7 @@ footer {
 }
 .prodjectTabContentRight {
     height: 600px;
-    overflow: hidden;
+    overflow-x: scroll;
 }
 .reviewsSlider  {
     padding-left: 10px;
