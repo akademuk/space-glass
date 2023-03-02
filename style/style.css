@@ -4323,12 +4323,24 @@ header {
     width: 100%;
 }
 .slider-nav {
-    width: 30%;
-    height: 150px;
+    width: 45%;
+    height: 150px !important;
+    margin-right: 20px;
 }
 .slider-for {
     width: 68%;
     height: 150px !important;
+}
+.slider-nav .slick-list {
+    width: 100%;
+}
+.slider-for .slick-list {
+    width: 100%;  
+    height: 100% !important;
+}
+
+.slider-nav .slick-list .sliderItem {
+    width: auto;
 }
 .bannerLeft a {
     width: 100%;
@@ -4915,6 +4927,35 @@ footer {
 }
 .reliable {
     padding-bottom: 64px;
+}
+.installationRight > a {
+    text-align: center;
+}
+.prodjectTabContentRight {
+    height: 600px;
+    overflow: hidden;
+}
+.reviewsSlider  {
+    padding-left: 10px;
+}
+.blogSlider {
+    padding-left: 10px;
+}
+.reliableRightSection svg {
+    margin-bottom: 16px;
+}
+.reliableRightOpacity {
+    margin-top: 8px;
+    line-height: 16px;
+}
+.installationLeft {
+    margin-bottom: 20px;
+}
+.servicesPosition >svg {
+    margin-bottom: 20px;
+}
+.servicesContainerSection::after {
+    background: transparent;
 }
 }
 /* //max-width: 576px */  
