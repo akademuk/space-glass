@@ -629,7 +629,7 @@ header .wrapper {
 }
 .reliable {
     background: #CDF0E1;
-    padding: 80px 0;
+    padding: 10px 0;
 }
 .reliable .wrapper {
     display: flex;
@@ -1498,7 +1498,7 @@ footer {
     align-items: center;
 }
 .footerNavigation li {
-    margin-right: 20px;
+    margin-right: 35px;
 }
 .footerNavigation li a {
     transition: all 0.3s;
@@ -2329,6 +2329,7 @@ select {
 }
 .bannerLeft > p {
     font-size: 19px;
+    line-height: 26px;
     color: #FFFFFF;
     margin-bottom: 32px;
 }
