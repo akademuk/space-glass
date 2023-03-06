@@ -4106,7 +4106,11 @@ footer {
     .allCaseContentTabSection {
         width: 48%;
     }
-
+    .main404 {
+        height: auto;
+        padding-bottom: 25px;
+        padding-top: 90px;
+    }
 } 
 /* //max-width: 768px */  
 
