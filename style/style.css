@@ -4958,6 +4958,38 @@ footer {
 .servicesContainerSection::after {
     background: transparent;
 }
+.aboutUs .wrapper .installationRight > a {
+    text-align: left;
+}
+.aboutUs .wrapper .installationLeft {
+    height: 220px !important;
+}
+.reviewsTop {
+    padding-bottom: 0;
+    margin-bottom: 30px;
+}
+.reviewsArrows {
+    padding-bottom: 24px;
+}
+.reviewsTop.blogTop {
+    margin-bottom: 24px;
+}
+.blogSlider .slick-track {
+    padding-top: 0 !important;
+}
+.blogDots .slick-dots {
+    margin-top: 15px;
+}
+.main404 {
+    height: auto;
+    padding-bottom: 25px;
+    padding-top: 90px;
+}
+.main404 .wrapper a {
+    width: 80%;
+    box-sizing: border-box;
+    display: block;
+}
 }
 /* //max-width: 576px */  
 
