@@ -4107,9 +4107,9 @@ footer {
         width: 48%;
     }
     .main404 {
-        height: auto;
-        padding-bottom: 25px;
-        padding-top: 90px;
+        height: auto !important;
+        padding-bottom: 25px !important;
+        padding-top: 90px !important;
     }
 } 
 /* //max-width: 768px */  
