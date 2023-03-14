@@ -4,6 +4,8 @@ $('.teamSlider').slick({
     slidesToScroll: 1,
     dots:true,
     arrows: false,
+    prevArrow: $('.teamSliderPrev'),
+    nextArrow: $('.teamSliderNext'),
     appendDots: $('.teamSliderDots'),
     responsive: [
       {
