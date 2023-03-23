@@ -5313,6 +5313,35 @@ footer {
 .allCaseContentTop h2 {
     margin-bottom: 40px;
 }
+.allCaseContentTabSection {
+    width: 48%;
+}
+.otherProjectsSliderItemPosition img {
+    max-width: 75%;
+}
+.otherProjectsSliderItemPosition {
+    top: 32%;
+}
+.materials .wrapper {
+    padding: 0 16px 80px 16px;
+}
+.materialsSlider {
+    overflow: hidden;
+}
+.materialsTop {
+    flex-direction: row;
+    align-items: center;
+}
+.materialsTop h2 {
+    width: 55%;
+}
+.otherProjects2 {
+    top: 45% !important;
+}
+.materialsTop h2 {
+    width: 60%;
+    margin-bottom: 0;
+}
 } 
 
 @media (max-width: 374px)  {
@@ -5322,6 +5351,9 @@ footer {
     }
     .articleBlueContent {
         height: 300px;
+    }
+    .allCaseContentTabSection {
+        width: 100%;
     }
 }
 /* //max-width: 375px */  
