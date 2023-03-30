@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/Favicon.png" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link rel="stylesheet" href="style/reset.css">
     <link rel="stylesheet" href="style/fonts.css">
@@ -11,6 +12,40 @@
     <title>SPACE GLASS</title>
 </head>
 <body class="body">
+    <div class="popup">
+        <div class="popup-content">
+            <span class="close">
+                <img src="img/close.svg" alt="close">
+            </span>
+            <div class="articleMainRightForm modalFormContent">
+                <h2>Заповніть форму</h2>
+                <p>Наш менеджер з вами зв'яжеться якнайшвидше</p>
+                <form id="submit-btn">
+                    <div class="articleMainRightFormIcon">
+                        <input type="text" placeholder="Ім'я">
+                    </div>
+                    <div class="articleMainRightFormIcon">
+                        <input type="tel" placeholder="Телефон">
+                    </div>
+                    <div class="articleMainRightFormIcon">
+                        <div class="select-wrapper">
+                            <div class="select-arrow-3"></div>
+                            <div class="select-arrow-3"></div>
+                            <select>
+                            <option>Як зв'язатися</option>
+                            <option>Default2</option>
+                            <option>Default3</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="articleMainRightFormIconSubmit">
+                        <input type="submit" value="Залишити заявку">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
     <div class="hooks">
         <div class="wrapper">
             <p>Ми використовуємо файли cookie на нашому веб-сайті, щоб забезпечити вам найрелевантніший досвід, запам’ятовуючи ваші вподобання та повторні відвідування. Натискаючи «Прийняти все», ви погоджуєтеся на використання ВСІХ файлів cookie.</p>
@@ -513,7 +548,7 @@
                 <h2>Виконуємо монтаж скляних виробів</h2>
                 <p>з урахуванням особливостей та тонкощів роботи, а також замірів конструкції</p>
                 <p>Правильність установки впливає на термін експулатації. Фахівці виконануют монтаж будь-якої складності протягом багатьох років по власній методології, тому ми даємо гарантію клієнтам.</p>
-                <a>Залишити заявку
+                <a class="popup-button">Залишити заявку
                     <img src="img/arrow.svg" alt="arrow">
                 </a>
             </div>
@@ -1089,8 +1124,8 @@
         <div class="wrapper">
             <div class="installationRight">
                 <h2>Про нас</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p class="aboutUsText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p class="aboutUsText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 <a>Детальніше
                     <img src="img/greenArrow.svg" alt="arrow">
                 </a>
@@ -1432,12 +1467,23 @@
     <script src="script/contactTabs.js"></script>
     <script src="script/services.js"></script>
     <script src="script/burgerAccardion.js"></script>
+    <script src="script/popapForm.js"></script>
     <script>
         $(function() {                     
           $(".hooksBtn").click(function() { 
               $(".hooks").addClass("hooksActive");      
           });
           });
+    </script>
+
+    <script>
+        const submitBtn = document.querySelector('#submit-btn');
+        submitBtn.addEventListener('click', function() {
+        // Здесь вы можете добавить код для обработки клика на кнопке
+        
+        // Перенаправляем пользователя на другую страницу
+        window.location.href = 'application-withdrawn.html';
+        });
     </script>
 </body>
 </html>

@@ -3098,9 +3098,147 @@ select {
     font-size: 37px;
     text-align: center;
 }
+.aboutUsText {
+    font-size: 15px !important;
+    line-height: 140%;
+}
 
+.popup {
+    display: none; /* скрываем попап по умолчанию */
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .popup-content {
+    background: #FFFFFF;
+    box-shadow: 2px 2px 21px rgba(155, 155, 155, 0.25);
+    margin: auto;
+    width: 410px;
+    position: relative;
+  }
+  
+  .close {
+    color: #aaa;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .modalFormContent {
+    padding: 32px;
+    margin-top: 0;
+  }
 
-
+.modalFormContent h2 {
+    font-weight:600;
+    font-size: 19px;
+    line-height: 110%;
+    text-align: center;
+    color: #363636;
+    margin-bottom: 16px;
+}
+.modalFormContent > p {
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 140%;
+    text-align: center;
+    color: #363636;
+    margin-bottom: 24px;
+}
+.modalFormContent form .articleMainRightFormIconSubmit::after {
+    content: none;
+}
+.modalFormContent form .articleMainRightFormIconSubmit {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 24px;
+    width: 100%;
+    background: #68C39C;
+    border-radius: 10px;
+    height: 53px;
+    margin-top: 20px;
+}
+.modalFormContent form .articleMainRightFormIcon {
+    border: 1px solid #D2D2D2;
+    border-radius: 4px;
+}
+.bannerApplication {
+    background: url(../img/Rectangle.png), #007844;
+    background-repeat: repeat;
+    background-size: auto;
+    padding: 195px 0 75px 0;
+}
+.bannerApplication .wrapper {
+    display: flex;
+    align-items: center;
+}
+.bannerApplicationLeft {
+    width: 50%;
+    margin-right: 20px;
+}
+.bannerApplicationRight {
+    width: 50%;
+}
+.bannerApplicationLeft h1 {
+    font-weight: bold;
+    font-size: 49px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 8px;
+}
+.bannerApplicationLeft > p {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 140%;
+    color: #FFFFFF;
+    margin-bottom: 48px;
+}
+.bannerApplicationLeft a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 32px;
+    height: 53px;
+    background: #68C39C;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 140%;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    width: max-content;
+}
+.bannerApplicationLeft a img {
+    margin-left: 13px;
+}
+.bannerApplicationRight img{
+    width: 100%;
+    max-width: 100%;
+}
 
 
 
@@ -3415,6 +3553,9 @@ select {
     }
     .allCaseContent .wrapper {
         padding: 0 32px;
+    }
+    .bannerApplication .wrapper {
+        padding:0 32px;
     }
 } 
 /* //max-width: 1200px */  
@@ -3811,6 +3952,15 @@ footer {
 .articleMainRight {
     width: 100%;
 }
+.modalFormContent {
+    width: 100% !important;
+}
+.bannerApplicationLeft h1 {
+    font-size: 35px;
+}
+.bannerApplicationLeft > p {
+    font-size: 16px;
+}
 } 
 /* //max-width: 991px */  
 
@@ -4192,6 +4342,30 @@ footer {
         height: auto !important;
         padding-bottom: 25px !important;
         padding-top: 90px !important;
+    }
+    .modalFormContent {
+        padding: 32px;
+        margin-left: 0;
+        box-sizing: border-box;
+    }
+    .bannerApplication .wrapper {
+        flex-direction: column;
+    }
+    .bannerApplicationLeft {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .bannerApplicationRight {
+        width: 100%;
+    }
+    .bannerApplicationRight {
+        height: 300px;
+    }
+    .bannerApplicationRight img{
+        height: 100%;
+    }
+    .bannerApplicationLeft {
+        margin-right: 0;
     }
 } 
 /* //max-width: 768px */  
@@ -5291,6 +5465,32 @@ footer {
 .teamSliderNext {
     margin-left: 4px;
 }
+.popup-content {
+    width: 90% !important;
+}
+.articleMainRightForm h2 {
+    font-size: 19px;
+}
+.bannerApplication {
+    padding-top: 100px;
+    padding-bottom: 48px;
+}
+.bannerApplication .wrapper {
+    padding: 0 16px;
+}
+.bannerApplicationLeft h1 {
+    font-size: 28px;
+    line-height: 140%;
+    margin-bottom: 8px;
+    width: 100%;
+}
+.bannerApplicationRight img {
+    object-fit: cover;
+}
+.bannerApplicationLeft p {
+    font-size: 19px;
+    line-height: 140%;
+}
 }
 /* //max-width: 576px */  
 
@@ -5306,6 +5506,9 @@ footer {
 }
 .allCaseContentTop {
     flex-direction: column;
+}
+.modalFormContent {
+    padding: 32px 16px;
 }
 .allCaseContentTabSection {
     width: 100%;
