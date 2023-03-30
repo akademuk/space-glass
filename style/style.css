@@ -3176,8 +3176,10 @@ select {
     margin-top: 20px;
 }
 .modalFormContent form .articleMainRightFormIcon {
-    border: 1px solid #D2D2D2;
     border-radius: 4px;
+}
+.modalFormContent form .articleMainRightFormIcon input {
+    border: 1px solid #D2D2D2;
 }
 .bannerApplication {
     background: url(../img/Rectangle.png), #007844;
