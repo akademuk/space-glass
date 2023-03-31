@@ -92,6 +92,8 @@ header {
 }
 .menu {
     display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
 }
 .top-nav.background {
     background: url(../img/Rectangle.png),#FFFFFF; 
@@ -669,7 +671,7 @@ header .wrapper {
     display: flex;
     position: relative;
     flex-direction: column;
-    padding: 30px 20px 0 20px;
+    padding: 35px 20px 0 20px;
     box-sizing: border-box;
     align-items: center;
     margin-bottom: 20px;
@@ -3462,7 +3464,7 @@ select {
         min-height: 100px;
     }
     .services {
-        padding: 80px 32px 0 32px;
+        padding: 64px 32px 0 32px;
     }
     .servicesPosition h3 {
         width: 90%;
@@ -3471,17 +3473,26 @@ select {
         top: 5px;
         left: 5px;
     }
+    .servicesContainerSection::before {
+        width: 100%;
+    }
+    .servicesPositionOpacity {
+        opacity: 1;
+    }
+    .services .wrapper {
+        padding-bottom: 44px;
+    }
     .installation {
-        padding: 80px 32px;
+        padding: 64px 32px;
     }
     .installation .wrapper {
-        align-items: flex-start;
+        align-items: normal;
     }
     .installationRight p {
         margin-bottom: 15px;
     }
     .reliable {
-        padding: 80px 32px;
+        padding: 64px 32px;
     }
     .reliableRightSection h3 {
         width: 100%;
@@ -3561,6 +3572,9 @@ select {
         height: 350px;
     }
     .installationLeft {
+        height: auto;
+    }
+    .installationLeft img {
         height: 100%;
     }
     .deliveryPage .wrapper {
@@ -3645,6 +3659,66 @@ select {
         height: 250px;
         overflow: hidden;
     }
+    .reliableRight {
+        padding-bottom: 0;
+    }
+    .reliableRightSection {
+        margin-bottom: 0;
+    }
+    .reliableRightSection::before {
+        height: 100%;
+    }
+    .reliableRightOpacity {
+        opacity: 1;
+    }
+    .reliableRightSection svg {
+        margin-bottom: 12px;
+    }
+    .reliableRightSection svg path {
+        fill: #fff;
+    }
+    .reliableRightSection h3 {
+        color: #fff;
+    }
+    .catalogueTabsSection:hover .top {
+        transform: translateY(8px);
+    }
+    .prodject .wrapper {
+        padding-bottom: 64px;
+    }
+    .catalogueTabOpacity {
+        transform: none;
+    }
+    .catalogueTabsSection:hover .catalogueTabOpacity {
+        transform: none;
+    }
+    .catalogueTabsSection {
+        height: 385px;
+    }
+    .catalogueTabsSection > img {
+        height: 315px;
+    }
+    .catalogueTabsSection .top {
+        transform: translateY(8px);
+    }
+    .contactLeft {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+       }
+       .contactLeftTabs {
+        display: flex;
+        flex-direction: column;
+       }
+       .contactLeftTabs > p {
+        text-align: left !important;
+       }
+       .contactLeftSocial > p {
+        text-align: left;
+       }
+       .social {
+        justify-content: flex-start;
+       }
 } 
 /* //max-width: 1200px */  
 
@@ -3822,9 +3896,6 @@ select {
 .counterSection p {
     font-size: 30px;
 }
-.services {
-    padding-top: 40px;
-}
 .servicesContainer {
     flex-wrap: wrap;
 }
@@ -3835,7 +3906,7 @@ select {
     padding-bottom: 20px;
 }
 .installation {
-    padding: 40px 32px;
+    padding: 64px 32px;
 }
 .services .wrapper h2 {
     font-size: 30px;
@@ -3847,7 +3918,7 @@ select {
     font-size: 30px;
 }
 .reliable {
-    padding: 40px 32px;
+    padding: 64px 32px;
 }
 .reliable .wrapper {
     flex-direction: column;
@@ -3906,7 +3977,7 @@ select {
     margin-bottom: 20px;
 }
 .catalogue {
-    padding: 40px 32px 0 32px;
+    padding: 64px 32px 0 32px;
 }
 .contact {
     padding: 40px 32px;
@@ -4053,6 +4124,15 @@ footer {
     height: 100vh;
     overflow: hidden;
 }
+.prodject .wrapper {
+    padding-bottom: 64px;
+}
+.contactLeftTabs > p {
+    text-align: left !important;
+   }
+   .social {
+    justify-content: flex-start;
+   }
 } 
 /* //max-width: 991px */  
 
@@ -4349,6 +4429,7 @@ footer {
     }
     .reliableRightSection {
         width: 49%;
+        margin-bottom: 20px;
     }
     .reliable {
         padding: 40px 16px;
