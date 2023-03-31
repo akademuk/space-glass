@@ -5493,6 +5493,9 @@ footer {
     font-size: 19px;
     line-height: 140%;
 }
+.catalogueTab {
+    overflow-x: scroll;
+}
 }
 /* //max-width: 576px */  
 
