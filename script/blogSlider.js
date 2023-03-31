@@ -17,9 +17,17 @@ $('.blogSlider').slick({
         {
           breakpoint: 767,
           settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            variableWidth: false,
+          },
+        },
+        {
+          breakpoint: 400,
+          settings: {
             slidesToShow: 1.5,
             slidesToScroll: 1,
-            variableWidth: true,
+            variableWidth: false,
           },
         },
       ],

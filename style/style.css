@@ -316,7 +316,7 @@ header .wrapper {
     align-items: center;
 }
 .bannerLeft {
-    width: 40%;
+    width: 41%;
 }
 .bannerRight {
     width: 680px; 
@@ -325,7 +325,7 @@ header .wrapper {
 .bannerLeft h1 {
     font-family: 'Nekst';
     font-weight: bold;
-    font-size: 47px;
+    font-size: 49px;
     line-height: 140%;
     text-transform: uppercase;
     color: #FFFFFF;
@@ -338,6 +338,7 @@ header .wrapper {
 }
 .bannerLeftNav li {
     font-size: 19px;
+    height: 27px;
     color: #FFFFFF;
     margin-bottom: 4px;
 }
@@ -625,7 +626,7 @@ header .wrapper {
 .installationRight p {
     font-size: 19px;
     color: #363636;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 .reliable {
     background: #CDF0E1;
@@ -758,6 +759,10 @@ header .wrapper {
     border: none;
     background-color: transparent;
     cursor: pointer;
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 140%;
 }
 .catalogueButton {
     color: #4C4C4C;
@@ -794,6 +799,7 @@ header .wrapper {
 }
 .catalogueTabOpacityFlex {
     text-align: right;
+    padding-right: 17px;
 }
 .catalogueTabOpacityFlex span {
     font-size: 12px;
@@ -902,6 +908,7 @@ header .wrapper {
     overflow: visible;
 }
 .catalogueTabBtn {
+    font-family: 'Gilroy';
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -915,6 +922,14 @@ header .wrapper {
     border: 1px solid transparent;
     transition: all 0.3s;
     cursor: pointer;
+}
+.prodject .wrapper .prodjectTop .catalogueTabBtn {
+    font-size: 12px;
+}
+.prodject .wrapper .prodjectTop .catalogueTabBtn img {
+    width: 18px;
+    height: 10px;
+    object-fit: contain;
 }
 .bA {
     background: transparent;
@@ -1390,7 +1405,7 @@ header .wrapper {
     justify-content: space-between;
 }
 .contactLeft {
-    width: 300px;
+    width: 320px;
     margin-right: 80px;
 }
 .contactLeft h2{
@@ -1416,6 +1431,10 @@ header .wrapper {
     background: transparent;
     border: none;
     color: #4C4C4C;
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 140%;
 }
 .contactBtn.active {
     color: #007844;
@@ -1429,7 +1448,7 @@ header .wrapper {
 }
 .contactLeftSocial > span {
     color: #363636;
-    width: 80%;
+    width: 75%;
     margin-bottom: 32px;
     display: block;
 }
@@ -1804,7 +1823,7 @@ footer {
     padding-top: 100px;
 }
 .boldText > p{
-    font-weight: bold !important;
+    font-weight: 800 !important;
     font-size: 37px !important;
     line-height: 110%;
     color: #363636;
@@ -3241,6 +3260,57 @@ select {
     width: 100%;
     max-width: 100%;
 }
+.whatDoingSection {
+    width: 280px;
+}
+.whatDoingSectionText {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    transition: all 0.3s ease-in-out; /* добавляем анимацию */
+  }
+  .show-more-btn {
+    display: block;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+
+  .show-more-btn img {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3431,7 +3501,7 @@ select {
     }
     .prodjectTabContentRight {
         width: 100%;
-        justify-content: flex-start;
+        justify-content:flex-start;
         margin-left: 0;
     }
     .prodjectTab-content {
@@ -3457,7 +3527,13 @@ select {
         padding: 80px 32px;
     }
     .banner {
-        padding-bottom: 400px;
+        padding-bottom: 200px;
+    }
+    .servicesPosition h3 {
+        font-size: 20px;
+    }
+    .menuGreen {
+        font-size: 18px;
     }
     .banner .wrapper {
         position: relative;
@@ -3466,10 +3542,6 @@ select {
         position: absolute;
         right: 0;
         top: 0;
-    }
-    .slider-x {
-        margin-left: auto;
-        margin-right: 0;
     }
     .bannerLeft h1 {
         width: 50%;
@@ -3559,6 +3631,20 @@ select {
     .bannerApplication .wrapper {
         padding:0 32px;
     }
+    .bannerRight {
+        width: 480px;
+    }
+    .slider-nav {
+        width: 200px;
+        height: 200px;
+        overflow: hidden;
+        margin-right: 20px;
+    }
+    .slider-for {
+        width: 260px;
+        height: 250px;
+        overflow: hidden;
+    }
 } 
 /* //max-width: 1200px */  
 
@@ -3609,7 +3695,7 @@ select {
 }
 .menu .wrapper {
     overflow: scroll;
-    padding-bottom: 200px;
+    padding-bottom: 140px;
 }
 .hooks .wrapper p {
     font-size: 14px;
@@ -3760,9 +3846,6 @@ select {
 .installationRight h2 {
     font-size: 30px;
 }
-.installationRight p {
-    font-size: 16px;
-}
 .reliable {
     padding: 40px 32px;
 }
@@ -3779,9 +3862,6 @@ select {
 .reliableRightSection {
     width: 24%;
 }
-.reliableRight {
-    margin-top: 40px;
-}
 .reliableRightSection h3 {
     font-size: 16px;
 }
@@ -3789,8 +3869,10 @@ select {
     justify-content: flex-start;
 }
 .catalogueTabsSection {
-    width: 49%;
     margin-bottom: 20px;
+}
+.catalogueTabOpacityFlex {
+    padding-right: 0;
 }
 .gallery {
     width: 22%;
@@ -3820,6 +3902,7 @@ select {
 }
 .contactLeft h2 {
     font-size: 30px;
+    text-align: center;
     margin-bottom: 20px;
 }
 .catalogue {
@@ -3962,6 +4045,13 @@ footer {
 }
 .bannerApplicationLeft > p {
     font-size: 16px;
+}
+.footerNavigation li {
+    margin-right: 18px;
+}
+.menu.open {
+    height: 100vh;
+    overflow: hidden;
 }
 } 
 /* //max-width: 991px */  
@@ -4211,9 +4301,6 @@ footer {
     .aboutUs .wrapper .installationLeft {
         height: 300px;
     }
-    .installationRight p {
-        font-size: 30px;
-    }
     .prodjectContentTop h3 {
         padding-left: 0;
     }
@@ -4368,6 +4455,9 @@ footer {
     }
     .bannerApplicationLeft {
         margin-right: 0;
+    }
+    .contactLeft h2 {
+        text-align: left;
     }
 } 
 /* //max-width: 768px */  
@@ -4769,10 +4859,21 @@ header {
 }
 .installationRight p {
     font-size: 19px;
+    line-height: 140%;
     margin-bottom: 30px;
 }
 .servicesPosition h3 {
     font-size: 23px;
+}
+.catalogueTabsSection:hover .top {
+    transform: translateY(8px);
+}
+
+.catalogueTabOpacity {
+    transform: none;
+}
+.catalogueTabsSection:hover .catalogueTabOpacity {
+    transform: none;
 }
 .reliableRightSection {
     margin-bottom: 16px;
@@ -4806,6 +4907,7 @@ header {
     width: 40%;
 }
 .prodjectTop h2 {
+    width: 100%;
     font-size: 29px;
     line-height: 110%;
     text-align: center;
@@ -5105,9 +5207,6 @@ footer {
 .blogPrev, .blogNext {
     width: 40px;
     height: 40px;
-}
-.blogSliderItem.slick-slide {
-    width: 320px !important;
 }
 .blogSliderItemContent > p {
     margin-bottom: 30px;
@@ -5495,6 +5594,9 @@ footer {
 }
 .catalogueTab {
     overflow-x: scroll;
+}
+.catalogueTabsSection {
+    width: 49%;
 }
 }
 /* //max-width: 576px */  
