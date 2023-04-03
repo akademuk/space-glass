@@ -3275,32 +3275,388 @@ select {
   }
   .show-more-btn {
     display: block;
-    margin-top: 10px;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 8px;
+    width: 27px;
+    height: 27px;
+    background: #CDF0E1;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border: none;
+    margin-bottom: 16px;
   }
-
+.whatDoingSection > a {
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+    padding: 16px 32px;
+    box-sizing: border-box;
+    display: block;
+    background: #68C39C;
+    border-radius: 4px;
+    font-family: 'Gilroy';
+    font-size: 15px;
+    line-height: 140%;
+    text-align: center;
+    color: #FFFFFF;
+}
   .show-more-btn img {
     transition: transform 0.3s ease-in-out;
+    width: 100%;
+    height: 100%;
+  }
+  .whatDoingContainer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+  .whatDoingSection {
+    width: 24%;
+    padding: 24px 16px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 50px rgba(18, 17, 39, 0.08);
+    margin-bottom: 20px;
+    margin-right: 1%;
+  }
+  .whatDoingSection:nth-of-type(4) {
+    margin-right: 0;
+  }
+  .whatDoingSection > img {
+    width: 100%;
+    margin-bottom: 16px;
+  }
+.whatDoing .wrapper > h2 {
+    font-family: 'Nekst';
+    font-weight: 600;
+    font-size: 37px;
+    line-height: 110%;
+    color: #363636;
+    margin-bottom: 40px;
+}
+.whatDoing {
+    padding: 80px 0 0 0;
+}
+.whatDoingSection > h2 {
+    font-family: 'Gilroy';
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 140%;
+    color: #363636;
+    margin-bottom: 8px;
+}
+.whatDoingSection > p {
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 140%;
+    color: #363636;
+    margin-bottom: 8px;
+}
+.whatDoing .wrapper {
+    border-bottom: 1px solid #BCBCBC;
+    padding-bottom: 80px;
+}
+.stagesWorkContent {
+    display: none;
+    position: relative;
+    height: 500px;
   }
   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  .landingAdvantagesTabsContent {
+    display: none;
+    position: relative;
+    height: 100%;
+  }
+  
+  .landingAdvantagesTabsContent.active {
+    display: flex;
+  }
+  
+  .stagesWork.active {
+    background-color: #ccc;
+  }
+  .stagesWork {
+    padding: 80px 0;
+  }
+.stagesWork .wrapper h2{
+    font-weight: 600;
+    font-size: 37px;
+    line-height: 110%;
+    color: #363636;
+    margin-bottom: 40px;
+}
+.stagesWorkContainer {
+    display: flex;
+}
+.stagesWorkContainerLeft {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 280px;
+    background: #FFFFFF;
+}
+.stagesWorkTabs {
+    height: 86px;
+    padding: 16px;
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    margin-bottom: 16px;
+    align-items: center;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.stagesWorkTabs a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+.stagesWorkContainerRight {
+    margin-left: 20px;
+    width: 100% ;
+}
+.stagesWorkTabs h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    box-sizing: border-box;
+    width: 51px;
+    height: 51px;
+    background: #A8E1C8;
+    font-family: 'Gilroy';
+    font-weight: 700;
+    font-size: 29px;
+    line-height: 110%;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    transition: all 0.3s;
+}
+.stagesWorkTabs h4 {
+    margin: 0 16px;
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 140%;
+    display: flex;
+    align-items: center;
+    color: #8F8F8F;
+    width: 147px;
+    transition: all 0.3s;
+}
+.r-tabs-state-active a > h3{
+    background: #007844;
+    transition: all 0.3s;
+}
+.r-tabs-state-active {
+    background: #F5FFFB;
+    transition: all 0.3s;
+}
+.r-tabs-state-active a h4{
+    color: #363636;
+    transition: all 0.3s;
+}
+.stagesWorkContent.r-tabs-state-active {
+    background: transparent;
+}
+.r-tabs .r-tabs-panel {
+    padding: 0;
+}
+.stagesWorkContentPosition {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    width: 487px;
+    padding: 16px;
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(8px);
+}
+.stagesWorkContent > img {
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.stagesWorkContentPosition h3 {
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 140%;
+    color: #363636;
+    margin-bottom: 16px;
+}
+.stagesWorkContentPosition p {
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 140%;
+    color: #4C4C4C;
+}
+.stagesWorkContentPosition span {
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 140%;
+    color: #4C4C4C;
+    margin-top: 16px;
+    display: block;
+}
+.landingForm {
+    padding: 80px 0;
+    background: #CDF0E1;
+}
+.landingForm .wrapper {
+    display: flex;
+}
+.landingFormTittle {
+    font-size: 23px !important;
+    line-height: 110%;
+    text-align: center;
+    color: #363636;
+}
+.landingForm .wrapper .wantTeamRight {
+    padding: 0;
+}
+.landingForm .wrapper .wantTeamLeft {
+    width: 680px;
+    height: 393px;
+}
+.landingForm .wrapper .wantTeamLeft img {
+    height: 100%;
+}
+.landingForm .wrapper .wantTeamRight {
+    width: 480px;
+}
+.landingAdvantagesContainerTop {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.landingAdvantagesTabs {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.landingAdvantages {
+    padding-top: 80px;
+}
+.landingAdvantages .wrapper{
+    padding-bottom: 80px;
+    border-bottom: 1px solid #BCBCBC;
+}
+.landingAdvantages .wrapper h2 {
+    font-weight: 700;
+    font-size: 37px;
+    line-height: 110%;
+    color: #363636;
+    margin-bottom: 40px;
+}
+.landingAdvantagesContainerBottom {
+    padding-top: 32px;
+}
+.landingAdvantagesTabs h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    box-sizing: border-box;
+    width: 51px;
+    height: 51px;
+    background: #A8E1C8;
+    font-family: 'Gilroy';
+    font-weight: 700;
+    font-size: 29px;
+    line-height: 110%;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    transition: all 0.3s;
+}
+.landingAdvantagesTabs h4 {
+    margin: 0 16px;
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 140%;
+    display: flex;
+    align-items: center;
+    color: #8F8F8F;
+    width: 147px;
+    transition: all 0.3s;
+}
+.landingAdvantagesTabs.active h3{
+    background: #007844;
+    transition: all 0.3s;
+}
+.landingAdvantagesTabs.active {
+    background: #F5FFFB;
+    transition: all 0.3s;
+}
+.landingAdvantagesTabs.active h4{
+    color: #363636;
+    transition: all 0.3s;
+}
+.landingAdvantagesTabsContent {
+    align-items: flex-start;
+}
+.landingAdvantagesInfoLeft {
+    width: 50%;
+    margin-right: 20px;
+}
+.landingAdvantagesInfoLeft img{
+    width: 100%;
+}
+.landingAdvantagesInfoRight {
+    width: 50%;
+}
+.landingAdvantagesInfoRight p {
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 140%;
+    color: #363636;
+}
+.landingSeoContainer {
+    display: flex;
+}
+.landingSeoContainer p {
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 140%;
+    color: #363636;
+}
+.landingSeo {
+    padding: 80px 0 0 0;
+}
+.landingSeo .wrapper {
+    padding-bottom: 80px;
+    border-bottom: 1px solid #BCBCBC;
+}
+.landingSeo .wrapper h2 {
+    font-weight: 600;
+    font-size: 37px;
+    line-height: 110%;
+    color: #363636;
+    margin-bottom: 40px;
+}
+.landingSeoContainerLeft {
+    width: 50%;
+    margin-right: 20px;
+}
+.landingSeoContainerRight {
+    width: 50%;
+}
 
 
 
@@ -3719,6 +4075,60 @@ select {
        .social {
         justify-content: flex-start;
        }
+       .whatDoing {
+        padding-top: 64px;
+       }
+       .whatDoing .wrapper {
+        padding: 0 32px 64px 32px;
+       }
+       .whatDoingSection > h2 {
+        font-size: 16px;
+       }
+       .stagesWork {
+        padding-top: 64px;
+       }
+       .stagesWork .wrapper {
+        padding: 0 32px 64px 32px;
+       }
+       .landingForm {
+        padding: 64px 0;
+       }
+       .landingForm .wrapper {
+        padding: 0 32px;
+       }
+       .landingAdvantages {
+        padding-top: 64px;
+       }
+       .landingAdvantages .wrapper {
+        padding: 0 32px 64px 32px;
+       }
+       .landingAdvantagesContainer {
+        width: 100%;
+        overflow: hidden;
+       }
+       .landingAdvantagesContainerTop {
+        overflow-x: scroll;
+        padding-bottom: 20px;
+       }
+       .landingAdvantagesTabs {
+        width: 280px;
+        margin-right: 20px;
+       }
+       .landingAdvantagesTabsContent {
+        align-items: inherit !important;
+       }
+       .landingAdvantagesInfoLeft img{
+        height: 100%;
+       }
+       .landingSeo {
+        padding-top: 64px;
+       }
+       .landingSeo .wrapper {
+        padding: 0 32px 64px 32px;
+       }
+       .landingSeo .wrapper h2 {
+        font-size: 29px;
+       }
 } 
 /* //max-width: 1200px */  
 
@@ -4133,13 +4543,25 @@ footer {
    .social {
     justify-content: flex-start;
    }
+   .stagesWorkContentPosition {
+    width: 300px;
+   }
+   .landingForm .wrapper .wantTeamLeft {
+    width: 50%;
+   }
+   .landingForm .wrapper .wantTeamRight {
+    width: 50%;
+   }
+   .whatDoingSection {
+    width: 32%;
+   }
 } 
 /* //max-width: 991px */  
 
 
 
 
-@media (max-width: 768px) {  
+@media (max-width: 767px) {  
     header {
         padding: 0 16px;
     }
@@ -4540,8 +4962,179 @@ footer {
     .contactLeft h2 {
         text-align: left;
     }
-} 
-/* //max-width: 768px */  
+    .whatDoingSection {
+        margin-right: 0;
+    }
+    .whatDoing .wrapper {
+        padding: 0 16px 64px 16px;
+    }
+    .whatDoingSection {
+        box-shadow: none;
+    } 
+    .whatDoingContainerDots .slick-dots {
+        display: flex;
+        justify-content: center;
+    }   
+    .whatDoingContainerDots .slick-dots li {
+        margin-right: 8px;
+    }  
+    .whatDoingContainerDots .slick-dots li:nth-last-of-type(1) {
+        margin-right: 0px;
+    }  
+    .whatDoingContainerDots .slick-dots li button {
+        font-size: 0;
+        width: 10px;
+        height: 10px;
+        background: #E9E9E9;
+        border-radius: 50%;
+        border: none;
+        padding: 0;
+    }
+    .whatDoingContainerDots .slick-dots li.slick-active button {
+        background: #68C39C;
+    }
+    .whatDoingSection > h2 {
+        font-size: 15px;
+        line-height: 140%;
+    }
+    .whatDoingSection > p {
+        font-size: 12px;
+        line-height: 140%;
+    }
+    .whatDoing .wrapper > h2 {
+        font-size: 29px;
+        margin-bottom: 24px;
+    }
+    .whatDoingSection {
+        padding-left: 10px;
+    }
+    .landingForm .wrapper .wantTeamLeft {
+        display: none;
+    }
+    .landingForm .wrapper {
+        justify-content: center;
+    }
+    .landingForm .wrapper .wantTeamRight {
+        width: 480px;
+    }
+    .landingAdvantages .wrapper h2 {
+        font-size: 29px;
+    }
+    .landingAdvantagesTabsContent {
+        flex-direction: column;
+    }
+    .r-tabs-accordion-title {
+        padding: 16px;
+        height: 68px;
+        box-sizing: border-box;
+        margin-bottom: 16px;
+    }
+    .r-tabs-accordion-title:nth-last-of-type(1) {
+        margin-bottom: 0;
+    }
+    .r-tabs-anchor h3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 34px;
+        height: 34px;
+        background: #A8E1C8;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 19px;
+        line-height: 140%;
+        display: flex;
+        align-items: center;
+        color: #FFFFFF;
+        margin-right: 16px;
+    }
+    .r-tabs-state-active .r-tabs-anchor img {
+        transform: rotate(90deg);
+        transition: all 0.3s;
+    }
+    .r-tabs-anchor h4 {
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 140%;
+        display: flex;
+        align-items: center;
+        color: #8F8F8F;
+    } 
+    .r-tabs .r-tabs-panel.r-tabs-state-active {
+        display: flex !important;
+        flex-direction: column-reverse;
+    }
+    .stagesWorkContentPosition {
+        position: static;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 0;
+        margin-bottom: 20px;
+    }
+    .stagesWorkContent {
+        height: auto;
+    }
+    .stagesWorkContent > img {
+        height: 200px;
+    }
+    .stagesWorkContentPosition h3 {
+        display: none;
+    }
+    .stagesWorkContentPosition p {
+        width: 100%;
+    }
+    .r-tabs-anchor img {
+        margin-left: auto;
+        transform: rotate(0deg);
+        transition: all 0.3s;
+    }
+    .r-tabs-accordion-title a {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        text-decoration: none;
+    }
+    .r-tabs-state-active {
+        background: #F5FFFB;
+        margin-bottom: 20px;
+    }
+    .stagesWork .wrapper {
+        padding: 0 16px;
+    }
+    .stagesWorkContainerRight {
+        margin-left: 0;
+    }
+    .landingAdvantages .wrapper {
+        padding: 0 16px 64px 16px;
+    }
+    .landingAdvantagesContainerBottom {
+        padding-top: 0;
+    }
+    .landingAdvantagesInfoLeft {
+        margin-right: 0;
+        height: 200px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .landingAdvantagesInfoRight {
+        width: 100%;
+    }
+    .landingSeoContainer {
+        flex-direction: column;
+    }
+    .landingSeoContainerLeft {
+        margin-right: 0;
+        width: 100%;
+    }
+    .landingSeoContainerRight {
+        width: 100%;
+        margin-top: 16px;
+    }
+}   
+/* //max-width: 767px */  
 
 
 
@@ -5678,6 +6271,12 @@ footer {
 }
 .catalogueTabsSection {
     width: 49%;
+}
+.landingForm .wrapper .wantTeamRight {
+    width: 100%;
+}
+.landingForm .wrapper {
+    padding: 0 16px;
 }
 }
 /* //max-width: 576px */  

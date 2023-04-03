@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="img/Favicon.png" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link href="
+    https://cdn.jsdelivr.net/npm/responsive-tabs@1.6.3/css/responsive-tabs.min.css
+    " rel="stylesheet">
     <link rel="stylesheet" href="style/reset.css">
     <link rel="stylesheet" href="style/fonts.css">
     <link rel="stylesheet" href="style/style.css">
@@ -123,7 +126,7 @@
         </div>
     </header><!--Header-->
 
-    <div class="menu">
+    <section class="menu">
         <div class="wrapper">
             <div class="menuTop">
                 <ul>
@@ -353,9 +356,9 @@
                 </div>
             </div>
         </div>
-    </div><!--Burger Menu-->
+    </section><!--Burger Menu-->
       
-    <div class="banner">
+    <section class="banner">
         <div class="wrapper">
             <div class="bannerLeft">
                 <h1>Реалізовуємо скляні мрії будь - якої складності</h1>
@@ -412,10 +415,11 @@
                 </div>
             </div>
         </div>
-    </div><!--Banner--> 
+    </section><!--Banner--> 
 
-    <div class="whatDoing">
+    <section class="whatDoing">
         <div class="wrapper">
+            <h2>Що робимо?</h2>
             <div class="whatDoingContainer">
                 <div class="whatDoingSection">
                     <img src="img/whatDoing1.png" alt="Скляні міжкімнатні двері">
@@ -487,24 +491,216 @@
                     <a href="#">Детальніше</a>
                 </div>
             </div>
+            <div class="whatDoingContainerDots"></div>
         </div>
-    </div><!--What are we doing?--> 
+    </section><!--What are we doing?--> 
+    
+    <section class="stagesWork">
+        <div class="wrapper">
+            <h2>Етапи роботи</h2>
+            <div class="stagesWorkContainer" id="responsiveTabsDemo">
+                <ul class="stagesWorkContainerLeft">
+                    <li class="stagesWorkTabs">
+                        <a href="#tab-1">
+                            <h3>1</h3>
+                            <h4>Запит та консультація</h4>
+                            <img src="img/arrowTabs.svg" alt="arrow">
+                        </a>
+                    </li>
+                    <li class="stagesWorkTabs">
+                        <a href="#tab-2">
+                            <h3>2</h3>
+                            <h4>Заміри та виїзд фахівця</h4>
+                            <img src="img/arrowTabs.svg" alt="arrow">
+                        </a>
+                    </li>
+                    <li class="stagesWorkTabs">
+                        <a href="#tab-3">
+                            <h3>3</h3>
+                            <h4>Укладання договору</h4>
+                            <img src="img/arrowTabs.svg" alt="arrow">
+                        </a>
+                    </li>
+                    <li class="stagesWorkTabs">
+                        <a href="#tab-4">
+                            <h3>4</h3>
+                            <h4>Проєктування та старт роботи</h4>
+                            <img src="img/arrowTabs.svg" alt="arrow">
+                        </a>
+                    </li>
+                    <li class="stagesWorkTabs">
+                        <a href="#tab-4">
+                            <h3>5</h3>
+                            <h4>Контроль якості</h4>
+                            <img src="img/arrowTabs.svg" alt="arrow">
+                        </a>
+                    </li>
+                    <li class="stagesWorkTabs">
+                        <a href="#tab-6">
+                            <h3>6</h3>
+                            <h4>Монтаж та здача проєкту</h4>
+                            <img src="img/arrowTabs.svg" alt="arrow">
+                        </a>
+                    </li>
+                </ul>
+                <div class="stagesWorkContainerRight">
+                  <div id="tab-1" class="stagesWorkContent active">
+                    <img src="img/stagesWorkContainer1.png" alt="Запит та консультація">
+                    <div class="stagesWorkContentPosition">
+                        <h3>Запит та консультація</h3>
+                        <p>Залиште свої контактні дані. Наш менеджер зв'яжеться з вами і проконсультує з усіх питань, що вас цікавлять.</p>
+                    </div>
+                  </div>
+              
+                  <div id="tab-2" class="stagesWorkContent">
+                    <img src="img/stagesWorkContainer2.png" alt="Заміри та виїзд фахівця">
+                    <div class="stagesWorkContentPosition">
+                        <h3>Заміри та виїзд фахівця</h3>
+                        <p>Після обговорення всіх деталей наш майстер виїжджає на об'єкт для проведення точних замірів майбутньої конструкції.</p>
+                        <span>* виїзд фахівця оплачується додатково</span>
+                    </div>
+                  </div>
+              
+                  <div id="tab-3" class="stagesWorkContent">
+                    <img src="img/stagesWorkContainer3.png" alt="Укладання договору">
+                    <div class="stagesWorkContentPosition">
+                        <h3>Укладання договору</h3>
+                        <p>Перед початком роботи вноситься аванс та підписується договір з урахуванням усіх індивідуальних параметрів.</p>
+                    </div>
+                  </div>
 
+                  <div id="tab-4" class="stagesWorkContent">
+                    <img src="img/stagesWorkContainer4.png" alt="Проєктування та старт роботи">
+                    <div class="stagesWorkContentPosition">
+                        <h3>Проєктування та старт роботи</h3>
+                        <p>По чітким замірам готуємо креслення майбутнього проєкту, згідно якому виготовляються конструкції. </p>
+                    </div>
+                  </div>
 
+                  <div id="tab-5" class="stagesWorkContent">
+                    <img src="img/stagesWorkContainer5.png" alt="Контроль якості ">
+                    <div class="stagesWorkContentPosition">
+                        <h3>Контроль якості</h3>
+                        <p>Перевіряємо якість усіх матеріалів, які використовуємо в роботі, ретельно перевіряються прямо із заводу.</p>
+                    </div>
+                  </div>
 
+                  <div id="tab-6" class="stagesWorkContent">
+                    <img src="img/stagesWorkContainer6.png" alt="Монтаж та здача проєкту">
+                    <div class="stagesWorkContentPosition">
+                        <h3>Монтаж та здача проєкту </h3>
+                        <p>Викокнуємо монтажні конструкцій на об'єкті та здаємо роботу клієнту.</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </section><!--Stages of work-->
 
+    <section class="landingForm">
+        <div class="wrapper">
+            <div class="wantTeamLeft">
+                <img src="img/landingForm.png" alt="img">
+            </div>
+            <div class="wantTeamRight">
+                <div class="articleMainRightForm">
+                    <form>
+                        <h2 class="landingFormTittle">Обговоримо Ваш проєкт?</h2>
+                        <div class="articleMainRightFormIcon">
+                            <input type="text" placeholder="Ім'я">
+                        </div>
+                        <div class="articleMainRightFormIcon">
+                            <input type="tel" placeholder="Телефон">
+                        </div>
+                        <div class="articleMainRightFormIcon">
+                            <div class="select-wrapper">
+                                <div class="select-arrow-3"></div>
+                                <div class="select-arrow-3"></div>
+                                <select>
+                                  <option>Як зв'язатися</option>
+                                  <option>Телефон</option>
+                                  <option>Telegram</option>
+                                  <option>WhatsApp</option>
+                                  <option>Viber</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="articleMainRightFormIconSubmit">
+                            <input type="submit" value="Надіслати">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section><!--Stages of work-->
 
-
-
-
-
-
-
-
-
-
-
-
+    <section class="landingAdvantages">
+        <div class="wrapper">
+            <h2>Переваги</h2>
+            <div class="landingAdvantagesContainer">
+                <div class="landingAdvantagesContainerTop">
+                    <div class="landingAdvantagesTabs active" onclick="landingAdvantagesTabs(event, 'landingAdvantagesTabsContent1')">
+                        <h3>1</h3>
+                        <h4>Запит та консультація</h4>
+                        <img src="img/arrowTabs.svg" alt="arrow">
+                    </div>
+                    <div class="landingAdvantagesTabs" onclick="landingAdvantagesTabs(event, 'landingAdvantagesTabsContent2')">
+                        <h3>2</h3>
+                        <h4>роки гарантії на фурнитуру</h4>
+                        <img src="img/arrowTabs.svg" alt="arrow">
+                    </div>
+                    <div class="landingAdvantagesTabs" onclick="landingAdvantagesTabs(event, 'landingAdvantagesTabsContent3')">
+                        <h3>
+                            <img src="img/landingAdvantagesTabs1.svg" alt="Безпечне скло">
+                        </h3>
+                        <h4>Безпечне скло</h4>
+                        <img src="img/arrowTabs.svg" alt="arrow">
+                    </div>
+                    <div class="landingAdvantagesTabs" onclick="landingAdvantagesTabs(event, 'landingAdvantagesTabsContent4')">
+                        <h3>
+                            <img src="img/landingAdvantagesTabs2.svg" alt="Пост обслуговування">
+                        </h3>
+                        <h4>Пост обслуговування</h4>
+                        <img src="img/arrowTabs.svg" alt="arrow">
+                    </div>
+                </div>
+                <div class="landingAdvantagesContainerBottom">
+                    <div id="landingAdvantagesTabsContent1" class="landingAdvantagesTabsContent active">
+                        <div class="landingAdvantagesInfoLeft">
+                            <img src="img/landingAdvantages1.png" alt="рік гарантії на монтаж">
+                        </div>
+                        <div class="landingAdvantagesInfoRight">
+                            <p>Скло – доволі складний для встановлення матеріал. Монтаж скляних конструкцій потребує особливої точності. Ми працюємо тільки по ретельно підготовленому індивідуальному кресленню, який ґрунтуються на попередніх чітких замірах. Бо знаємо, що саме правильна підготовка, обов'язкове дотримання всіх вимог та професіональність майстрів впливають на довготривалість експлуатації наших виробів.  У Space Glass ретельно ставляться до кваліфікацій своїх співробітників, тому ми можемо гарантувати якість виконання монтажних робіт.</p>
+                        </div>
+                    </div>
+                    <div id="landingAdvantagesTabsContent2" class="landingAdvantagesTabsContent">
+                        <div class="landingAdvantagesInfoLeft">
+                            <img src="img/landingAdvantages2.png" alt="роки гарантії на фурнитуру">
+                        </div>
+                        <div class="landingAdvantagesInfoRight">
+                            <p>Якісна фурнітура є важливим елементом скляних виробів будь-якого виду. Вона впливає на міцність та довготривалість усієї конструкції. Завдяки багаторічному досвіду, нам вдалося підібрати найкращих виробників фурнітури, які працюють тільки з високоякісними матеріалами та відповідають усім вимогам. Перед тим як використати будь-який елемент, він проходить обов'язковий контроль на якість, і тільки після цього потрапляє до вас на об'єкт. Тому ми можемо бути впевненими, що використана нами фурнітура надійно виконуватиме своє призначення.</p>
+                        </div>
+                    </div>
+                    <div id="landingAdvantagesTabsContent3" class="landingAdvantagesTabsContent">
+                        <div class="landingAdvantagesInfoLeft">
+                            <img src="img/landingAdvantages3.png" alt="Безпечне скло">
+                        </div>
+                        <div class="landingAdvantagesInfoRight">
+                            <p>У своїх роботах ми використовуємо лише високоякісне загартоване скло. Завдяки особливій технології виготовлення (термічній обробці), скло набуває особливих характеристик: стійкість до значних механічних навантажень, ударів, деформацій, а також термостійкість. Якщо перевищити межу міцності, загартоване скло все одно можна вважати безпечним для здоров'я та життя людини. Все через те, що при його руйнуванні скляне полотно розбивається на маленькі травмобезпечні фракції до 10 мм та обсипаються додолу округлими шматочками.</p>
+                        </div>
+                    </div>
+                    <div id="landingAdvantagesTabsContent4" class="landingAdvantagesTabsContent">
+                        <div class="landingAdvantagesInfoLeft">
+                            <img src="img/landingAdvantages4.png" alt="Пост обслуговування">
+                        </div>
+                        <div class="landingAdvantagesInfoRight">
+                            <p>Компанія Space Glass завжди залишається поруч зі своїми клієнтами. Навіть після завершенні всіх монтажних робіт та здачі проєкту, ми з радістю надаємо додаткове пост обслуговування. Кожен клієнт, у разі виникнення будь-яких питань щодо подальшої експлуатації скляних конструкцій, може звернутися до нас за телефоном та отримати консультацію від наших фахівців. Окрім цього, за потреби, майстри Space Glass  можуть виїхати на об'єкт для виконання необхідних робіт, наприклад, замінити або ущільнити гумки.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><!--Advantages-->
 
     <section class="prodject">
         <div class="wrapper">
@@ -845,6 +1041,22 @@
         </div>
     </section><!--Prodject-->
 
+    <section class="landingSeo">
+        <div class="wrapper">
+            <h2>SEO text box</h2>
+            <div class="landingSeoContainer">
+                <div class="landingSeoContainerLeft">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <div class="landingSeoContainerRight">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section class="contact">
         <div class="wrapper">
             <div class="contactLeft">
@@ -971,6 +1183,9 @@
 
 
     <script src="https://code.jquery.com/jquery-3.6.2.min.js" crossorigin="anonymous"></script>
+    <script src="
+    https://cdn.jsdelivr.net/npm/responsive-tabs@1.6.3/js/jquery.responsiveTabs.min.js
+    "></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="https://unpkg.com/scrollbooster@2/dist/scrollbooster.min.js"></script>
     <script src="script/scrollbooster.min.js"></script>
@@ -981,6 +1196,9 @@
     <script src="script/contactTabs.js"></script>
     <script src="script/popapForm.js"></script>
     <script src="script/whatDoing.js"></script>
+    <script src="script/stagesWorkTabs.js"></script>
+    <script src="script/landingAdvantages.js"></script>
+    <script src="script/whatDoingContainerSlider.js"></script>
     <script>
         $(function() {                     
           $(".hooksBtn").click(function() { 
@@ -990,7 +1208,7 @@
     </script>
 
     <script>
-      const submitBtn = document.querySelector('submit-btn');
+      const submitBtn = document.getElementById('submit-btn');
         submitBtn.addEventListener('click', function(event) {
         event.preventDefault(); // Отменяем стандартное поведение браузера при клике на ссылку
         // Здесь вы можете добавить код для обработки клика на кнопке
