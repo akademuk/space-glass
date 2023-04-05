@@ -4626,6 +4626,7 @@ select {
     }
     .slider-x .sliderItem{
         width: 380px;
+        height: 30vh;
     }
     .bannerRight {
         width: auto;
@@ -4638,10 +4639,10 @@ select {
     }
     .slider-nav .sliderItem{
         width: 180px;
+        height: 20vh;
     }
     .slider-for .sliderItem{
         width: 180px;
-        height: 200px !important;
     }
     .slider-for {
         height: 30vh !important;
@@ -4651,7 +4652,7 @@ select {
         margin-bottom: 20px;
     }
     .slider-for .sliderItem {
-        height: 200px;
+        height: 30vh !important;
     }
     .bannerRight {
         align-items: center;
