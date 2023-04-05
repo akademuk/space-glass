@@ -493,7 +493,7 @@ header .wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 380px;
+    width: 50%;
     margin-left: auto;
     margin-top: 28px;
 }
@@ -1939,6 +1939,7 @@ footer {
 
 /**Delivery Page**/
 .breadcrumb {
+    margin: 0 auto;
     padding-top: 122px;
     height: 49px;
     display: flex;
@@ -2757,7 +2758,17 @@ select {
     height: 10px;
     margin-left: 10px;
 }
-
+.flexContainerBlueColumn {
+    display: flex;
+    flex-direction: column;
+}
+.flexContainerBlueColumn h3 {
+    font-family: 'Gilroy';
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 140%;
+    color: #363636;
+}
 .flexContainerBlue {
     display: flex;
     align-items: center;
@@ -2768,21 +2779,14 @@ select {
 }
 
 /*About Us*/
-.bannerAboutUs .wrapper {
-    flex-direction: column;
-}
-
 .bannerAboutUs {
-    padding-top: 125px;
+    padding-top: 0;
 }
-
 .bannerAboutUsFlex {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 50px;
 }
-
 .bannerAboutUs .wrapper .breadcrumb {
     padding-top: 0;
 }
@@ -2793,10 +2797,6 @@ select {
 
 .bannerAboutUs .wrapper .breadcrumb a:nth-of-type(2) {
     color: #D2D2D2;
-}
-
-.bannerAboutUs {
-    padding-bottom: 175px;
 }
 
 .bannerLeft>p {
@@ -3014,9 +3014,6 @@ select {
     padding-bottom: 80px;
 }
 
-.wantTeamLeft {
-    height: 426px;
-}
 
 .wantTeamRight .articleMainRightForm {
     background: transparent;
@@ -3048,6 +3045,7 @@ select {
 .wantTeamLeft img {
     max-width: 100%;
     width: 100%;
+    height: 100%;
 }
 
 .wantTeamRight {
@@ -4358,9 +4356,8 @@ select {
     margin-bottom: 45px;
     padding-top: 16px;
 }
-
 .landingBanner {
-    padding-top:122px;
+    padding-top: 0;
 }
 
 .landingCardBanner .bannerLeft {
@@ -4559,7 +4556,13 @@ select {
 .breadcrumb {
     max-width: 1180px !important;
 }
-
+.articleMainRightFormTittle  {
+    font-weight: 600 !important;
+    font-size: 23px !important;
+    line-height: 110% !important;
+    color: #363636;
+    text-align: left !important;
+}
 
 
 
@@ -4625,6 +4628,19 @@ select {
    .bannerLeft {
     padding-top: 0;
    }
+   .bannerAboutUs .wrapper {
+    height: calc(100% - 80px);
+    }
+    .bannerAboutUsFlex {
+        height: 100%;
+    }
+    .bannerAboutUsFlex .bannerLeft h1{
+        font-size: 40px;
+        line-height: 120%;
+    }
+    .landingBanner .wrapper {
+        height: calc(100% - 80px);
+       }
 } 
 
 
@@ -4657,6 +4673,7 @@ select {
         height: 100% !important;
     }
     .breadcrumb {
+        margin: 0 auto;
         max-width: 1440px !important;
         width: 100% !important;
         overflow: hidden !important;
@@ -4922,23 +4939,28 @@ select {
     .banner .wrapper {
         position: relative;
     }
-
-    .bannerRight {
-        position: absolute;
-        right: 0;
-        top: 0;
+    .landingBanner .wrapper .bannerLeft {
+        width: 100%;
+        margin-left: 0;
     }
-
-    .bannerLeft h1 {
-        width: 50%;
-        font-size: 40px;
-        line-height: 120%;
-    }
-
     .slider-for {
         height: 350px;
     }
-
+    .bannerLeft {
+        margin-right: 0;
+    }
+    .landingBanner .wrapper .bannerLeft {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .bannerLeft>p br{
+        display: none;
+    }
+    .landingBanner .wrapper .bannerLeft h1 br{
+        display: none;
+    }
     .slider-nav {
         height: 300px;
     }
@@ -4981,11 +5003,9 @@ select {
     .bannerAboutUsFlex .bannerLeft h1 {
         width: 100%;
     }
-
     .bannerAboutUs {
-        padding-bottom: 175px;
+        padding-top: 0;
     }
-
     .history .wrapper {
         padding: 0 32px;
     }
@@ -5216,7 +5236,7 @@ select {
     }
 
     .landingBanner {
-        padding-top: 122px;
+        padding-top: 0;
     }
 
     .landingBanner .breadcrumb {
@@ -5237,6 +5257,26 @@ select {
 
     .landingCardFoto .wrapper {
         padding: 0 32px;
+    }
+    .bannerAboutUs {
+        padding-top: 0 !important;
+    }
+    .bannerAboutUsFlex .bannerLeft {
+        width: 100%;
+        margin-right: 0;
+    }
+    .articleMainRightNavigation {
+        text-align: left;
+    }
+    .articleMainRight ul li a {
+        text-align: left;
+        width: max-content;
+    }
+    .displayRight {
+        display: none !important;
+    }
+    .flexContainerBlueColumn h3 {
+        font-size: 16px;
     }
 }
 
@@ -5580,10 +5620,6 @@ select {
         padding: 40px 32px;
     }
 
-    .contact .wrapper {
-        flex-direction: column;
-    }
-
     .blogTop {
         margin-bottom: 15px;
     }
@@ -5826,6 +5862,9 @@ select {
     .landingCardFoto .wrapper h2 {
         font-size: 29px;
     }
+    .bannerAboutUsFlex .bannerRight {
+        height: 400px;
+    }
 }
 
 /* //max-width: 991px */
@@ -5942,7 +5981,7 @@ select {
     }
 
     .banner {
-        padding: 167px 16px 45px 16px;
+        padding: 48px 16px 48px 16px;
     }
 
     .counter {
@@ -6559,7 +6598,7 @@ select {
     }
 
     .landingBanner {
-        padding-top: 122px;
+        padding-top: 0;
     }
 
     .whatItIsRightContainer {
@@ -6568,6 +6607,27 @@ select {
 
     .whatItIsRightContainerSection {
         width: 100%;
+    }
+    .contact .wrapper {
+        flex-direction: column;
+    }
+    .displayRight {
+        display: block !important;
+        width: 100%;
+    }
+    .displayRight .articleMainRightNavigation {
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .classNone {
+        display: none;
+    }
+    .articleMainRightForm {
+        margin-left: 0;
+        width: 100%;
+    }
+    .articleMain {
+        flex-direction: column;
     }
 }
 
@@ -6642,7 +6702,6 @@ select {
     .bannerCaseContentLeft>p {
         font-size: 16px;
     }
-
     .bannerCaseContentLeftLogo {
         flex-direction: column;
     }
@@ -6812,22 +6871,34 @@ select {
     }
 
     .flexContainerBlue {
-        padding-top: 20px;
+        padding-top: 0;
+        padding-left: 16px;
     }
 
     .articleBlueContentText h3 {
         font-size: 16px;
         text-align: center;
     }
-
+    .flexContainerBlueColumn h3 {
+        width: 69%;
+        margin-left: auto;
+        margin-top: 0;
+    }
     .articleBlueContentText>p {
         text-align: center;
     }
-
+.flexContainerBlue {
+    position: relative;
+}
     .articleBlueContentText {
         padding: 12px;
+        padding-left: 0;
     }
-
+    .articleBlueContentImg {
+        position: absolute;
+        left: 0;
+        top: -2px;
+    }
     .sliderContainerFlex {
         width: 100%;
     }
@@ -6915,10 +6986,6 @@ select {
     .counterSection span {
         font-size: 15px;
         line-height: 140%;
-    }
-
-    .banner {
-        padding-top: 115px;
     }
 
     .counter {
@@ -7305,7 +7372,6 @@ select {
     }
 
     .breadcrumb {
-        padding-top: 67px;
         margin-bottom: 8px;
     }
 
@@ -7856,7 +7922,7 @@ select {
     }
 
     .articleBlueContent {
-        height: 250px;
+        height: 180px;
     }
 
     .accordion {
@@ -7921,9 +7987,6 @@ select {
         padding-top: 65px;
     }
 
-    .bannerAboutUs .wrapper .bannerAboutUsFlex .bannerLeft {
-        margin-top: 35px;
-    }
 
     .historyTopLeft h2 {
         text-align: left !important;
@@ -8074,6 +8137,9 @@ select {
 
     .landingCardFoto .wrapper {
         padding: 0 16px;
+    }
+    .landingBanner {
+        padding-top: 0;
     }
 }
 
