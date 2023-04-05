@@ -104,6 +104,7 @@ header {
     padding: 40px;
     height: calc(100vh - 122px);
     box-sizing: border-box;
+    margin-top: -1px;
 }
 
 .menu {
@@ -5069,22 +5070,24 @@ select {
     }
 
     .bannerRight {
-        width: 480px;
+        width:100%;
     }
 
     .slider-nav {
-        width: 200px;
-        height: 200px;
+        width:50%;
+        height: 300px;
         overflow: hidden;
         margin-right: 20px;
     }
 
     .slider-for {
-        width: 260px;
-        height: 250px;
+        width: 50%;
+        height: 450px;
         overflow: hidden;
     }
-
+    .slider-for .slick-list {
+        height: 100%;
+    }
     .reliableRight {
         padding-bottom: 0;
     }
@@ -5246,7 +5249,15 @@ select {
     .landingCardBanner .bannerLeft h1 {
         width: 90%;
     }
-
+    .bannerLeft {
+        padding-top: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .bannerLeft h1 {
+        text-align: center;
+    }
     .whatItIs {
         padding: 64px 0;
     }
@@ -7051,7 +7062,7 @@ select {
     }
 
     .reliableRightSection {
-        height: 200px;
+        height: max-content;
         background: url(../img/Rectangle.png), #0E8753;
         background-repeat: repeat;
         background-size: contain;
