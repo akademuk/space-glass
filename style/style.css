@@ -4658,6 +4658,13 @@ select {
     .bannerLeft br{
         display: none;
     }
+    .bannerHeight .wrapper .bannerLeft {
+        padding-top: 0;
+        margin-bottom: 0;
+    }
+    .banner {
+        padding-top: 180px;
+    }
 }
 
 
@@ -4686,7 +4693,9 @@ select {
         overflow: hidden !important;
         box-sizing: border-box !important;
     }
-
+    .bannerHeight .wrapper {
+        height: 100% !important;
+    }
     .breadcrumb {
         max-width: 1440px !important;
         width: 100% !important;
