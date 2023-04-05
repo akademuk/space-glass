@@ -4560,7 +4560,9 @@ select {
 .bannerLeft {
     width: 480px;
 }
-
+.breadcrumb {
+    max-width: 1180px !important;
+}
 
 
 
@@ -4604,7 +4606,7 @@ select {
 
 @media (min-width: 1024px) and (max-height:1024px) {
     .slider-x {
-        height: 160px;
+        height: 30vh;
         width: 380px;
     }
     .banner .wrapper {
@@ -4630,7 +4632,7 @@ select {
         margin-left: auto;
     }
     .slider-nav {
-        height: 160px;
+        height: 20vh;
         width: 180px !important;
         margin-right: 20px;
     }
@@ -4642,7 +4644,7 @@ select {
         height: 200px !important;
     }
     .slider-for {
-        height: 200px !important;
+        height: 30vh !important;
         width: 180px !important;
     }
     .landingBanner .breadcrumb {
@@ -4663,7 +4665,21 @@ select {
         margin-bottom: 0;
     }
     .banner {
-        padding-top: 180px;
+        padding-top: 180px !important;
+    }
+    .bannerAboutUs {
+        padding-bottom: 20px;
+    }
+    .breadcrumb {
+        margin: 0 auto 32px auto;
+        max-width: 1180px !important;
+    }
+    .bannerAboutUsFlex {
+        padding-top: 0;
+        height: max-content;
+    }
+    .bannerAboutUsFlex .bannerRight {
+        width: 580px !important;
     }
 }
 
