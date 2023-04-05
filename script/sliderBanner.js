@@ -19,7 +19,7 @@ $('.slider-for').slick({
     slidesToShow: 1,
     variableWidth: true,
     adaptiveHeight: true,
-    autoplay: true,
+    // autoplay: true,
     autoplaySpeed: 2000,
     prevArrow: $('.bannerPrev'),
     nextArrow: $('.bannerNext'),
