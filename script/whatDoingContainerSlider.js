@@ -2,6 +2,7 @@ function initSlider() {
   $('.whatDoingContainer').slick({
     arrows: false,
     dots:true,
+    appendDots: $('.whatDoingContainerDots'),
     responsive: [
       {
         breakpoint: 767,
@@ -9,7 +10,6 @@ function initSlider() {
           slidesToShow: 3,
           slidesToScroll: 1,
           dots:true,
-          appendDots: $('.whatDoingContainerDots'),
         },
       },
       {
