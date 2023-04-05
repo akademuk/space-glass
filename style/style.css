@@ -85,7 +85,6 @@ body {
 }
 
 header {
-    position: absolute;
     width: 100%;
     max-width: 100%;
     box-sizing: border-box;
@@ -102,9 +101,8 @@ header {
     background-repeat: repeat;
     background-size: auto;
     width: 100%;
-    padding-top: 10vh;
-    padding-bottom: 45px;
-    height: 100vh;
+    padding: 40px;
+    height: calc(100vh - 122px);
     box-sizing: border-box;
 }
 
@@ -390,12 +388,12 @@ header .wrapper {
 }
 
 .bannerLeft {
-    width: 41%;
+    width: 43%;
+    margin-right: 20px;
 }
 
 .bannerRight {
-    width: 680px;
-    margin-left: 20px;
+    width: 57%;
 }
 
 .bannerLeft h1 {
@@ -466,26 +464,27 @@ header .wrapper {
 }
 
 .slider-nav {
-    width: 280px;
+    width: 45%;
     height: 300px;
     margin-bottom: auto;
+    margin-right: 20px;
 }
 
 .slider-for {
-    width: 380px;
+    width: 50%;
     height: 450px;
 }
 
 .slider-for .sliderItem {
-    width: 380px;
+    width: 100%;
 }
 
 .slider-nav .sliderItem {
-    width: 280px;
+    width: 100%;
 }
 
 .slider-x {
-    width: 480px;
+    width: 80%;
     height: 285px;
     margin: 0 auto 20px auto;
 }
@@ -4557,9 +4556,6 @@ select {
     color: #FFFFFF;
     margin: 10px auto 0 auto;
 }
-.bannerLeft {
-    width: 480px;
-}
 .breadcrumb {
     max-width: 1180px !important;
 }
@@ -4605,81 +4601,28 @@ select {
 
 
 @media (min-width: 1024px) and (max-height:1024px) {
-    .slider-x {
-        height: 30vh;
-        width: 380px;
-    }
-    .banner .wrapper {
+   .bannerRight {
         height: 100%;
-        align-items: center;
-    }
-    .bannerLeft h1 {
-        font-size: 35px;
-        line-height: 140%;
-        margin-bottom: 16px;
-    }
-    .bannerLeft > p {
-        margin-bottom: 16px;
-    }
-    .landingBannerFlex {
-        margin-bottom: 16px;
-    }
-    .slider-x .sliderItem{
-        width: 380px;
-        height: 30vh;
-    }
-    .bannerRight {
-        width: auto;
-        margin-left: auto;
-    }
-    .slider-nav {
-        height: 20vh;
-        width: 180px !important;
-        margin-right: 20px;
-    }
-    .slider-nav .sliderItem{
-        width: 180px;
-        height: 20vh;
-    }
-    .slider-for .sliderItem{
-        width: 180px;
-    }
-    .slider-for {
-        height: 30vh !important;
-        width: 180px !important;
-    }
-    .landingBanner .breadcrumb {
-        margin-bottom: 20px;
-    }
-    .slider-for .sliderItem {
-        height: 30vh !important;
-    }
-    .bannerRight {
-        align-items: center;
-        width: 400px !important;
-    }
-    .bannerLeft br{
-        display: none;
-    }
-    .bannerHeight .wrapper .bannerLeft {
-        padding-top: 0;
-        margin-bottom: 0;
-    }
-    .bannerAboutUs {
-        padding-bottom: 20px;
-    }
-    .breadcrumb {
-        margin: 0 auto 32px auto;
-        max-width: 1180px !important;
-    }
-    .bannerAboutUsFlex {
-        padding-top: 0;
-        height: max-content;
-    }
-    .bannerAboutUsFlex .bannerRight {
-        width: 580px !important;
-    }
-}
+   }
+   .slider-x {
+        height: 40%;
+   }
+   .sliderContainerFlex {
+    height: calc(100% - 55%);
+   }
+   .slider-x .slick-list {
+    height: 100% !important;
+   }
+   .slider-nav {
+    height: 70%;
+   }
+   .slider-for {
+    height: 100%;
+   }
+   .banner .wrapper {
+    height: 100%;
+   }
+} 
 
 
 
@@ -4837,7 +4780,7 @@ select {
     .banner {
         width: 100%;
         box-sizing: border-box;
-        padding: 167px 32px 45px 32px;
+        padding: 40px 32px 45px 32px;
     }
 
     .banner .wrapper {
@@ -4963,10 +4906,6 @@ select {
 
     footer {
         padding: 80px 32px;
-    }
-
-    .banner {
-        padding-bottom: 200px;
     }
 
     .servicesPosition h3 {

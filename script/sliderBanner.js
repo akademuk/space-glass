@@ -1,14 +1,14 @@
 $('.slider-for').slick({
     arrows: false,
     asNavFor: '.slider-nav,.slider-x',
-    variableWidth: true,
+    variableWidth: false,
     slidesToShow: 1,
     adaptiveHeight: true
   });
   $('.slider-x').slick({
     arrows: false,
     asNavFor: '.slider-for,.slider-nav',
-    variableWidth: true,
+    variableWidth: false,
     slidesToShow: 1,
     adaptiveHeight: true
   });
@@ -17,7 +17,7 @@ $('.slider-for').slick({
     dots:true,
     asNavFor: '.slider-for,.slider-x',
     slidesToShow: 1,
-    variableWidth: true,
+    variableWidth: false,
     adaptiveHeight: true,
     // autoplay: true,
     autoplaySpeed: 2000,
