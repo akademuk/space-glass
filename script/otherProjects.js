@@ -1,6 +1,6 @@
 $('.otherProjectsSlider').slick({
     infinite: false,
-    slidesToShow: 4,
+    slidesToShow: 3,
     slidesToScroll: 1,
     dots:true,
     arrows: false,
@@ -9,7 +9,7 @@ $('.otherProjectsSlider').slick({
       {
         breakpoint: 1500,
         settings: {
-          slidesToShow: 4,
+          slidesToShow: 3,
           slidesToScroll: 1,
         },
       },

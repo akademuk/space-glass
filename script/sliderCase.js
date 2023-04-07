@@ -11,8 +11,10 @@ $('.slider-nav').slick({
   slidesToScroll: 1,
   asNavFor: '.slider-for',
   dots: true,
-  arrows: false,
+  arrows: true,
   focusOnSelect: true,
+  prevArrow: $('.prodjectSliderPrev'),
+  nextArrow: $('.prodjectSliderNext'),
   appendDots: $('.caseSlider'),
   responsive: [
     {
