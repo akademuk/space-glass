@@ -1565,7 +1565,7 @@ header .wrapper {
     flex-direction: column;
     align-items: flex-start;
     background: #FFFFFF;
-    box-shadow: 0px 10px 15px rgba(18, 17, 39, 0.08);
+    box-shadow: 0px 5px 10px rgba(18, 17, 39, 0.08);
 }
 
 .blogSlider .slick-slide {
@@ -3587,20 +3587,17 @@ select {
 }
 
 .allCaseContentTabSection {
-    width: 24%;
+    width: 32%;
     height: 350px;
     margin-bottom: 40px;
     margin-right: 1.2%;
 }
-
-.allCaseContentTabSection:nth-of-type(4n) {
-    margin-right: 0;
-}
-
 .allCaseContentTab {
     display: none;
 }
-
+.allCaseContentTabsImgCon {
+    position: relative;
+}
 .allCaseContentTab.active {
     display: flex;
 }
@@ -3630,6 +3627,11 @@ select {
     background: transparent;
     color: #4C4C4C;
     padding: 0 8px;
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 140%;
+    color: #4C4C4C;
 }
 
 .allCaseContentTabs button:nth-of-type(1) {
