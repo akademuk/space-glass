@@ -4621,7 +4621,7 @@ select {
     align-items: flex-start;
     padding: 24px 16px;
     background: #FFFFFF;
-    box-shadow: 0px 10px 15px rgba(18, 17, 39, 0.08);
+    box-shadow: 0px 5px 10px rgba(18, 17, 39, 0.08);
     box-sizing: border-box;
 }
 .prodjecItem h2 {
@@ -8534,6 +8534,9 @@ select {
     }
     .history .wrapper {
         padding: 0 16px;
+    }
+    .banner.bannerAboutUs .wrapper {
+        margin-top: 40px;
     }
 }
 
