@@ -3578,7 +3578,7 @@ select {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: space-between;
 }
 
 .otherProjectsSliderItemImg {
@@ -4856,7 +4856,9 @@ select {
     text-align: center;
     color: #E9E9E9;
 }
-
+.allCaseContentTabSection:nth-last-of-type(1) {
+    margin-right: auto;
+}
 
 
 
