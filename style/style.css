@@ -756,7 +756,7 @@ header .wrapper {
 .installationRight p {
     font-size: 19px;
     color: #363636;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
 }
 
 .reliable {
@@ -785,6 +785,7 @@ header .wrapper {
 
 .installationRight p:nth-last-of-type(1) {
     font-size: 15px;
+    margin-bottom: 20px;
 }
 
 .reliableLeft p {
@@ -4832,7 +4833,10 @@ select {
     width: auto;
     object-fit: cover;
   }
-  
+  .banner.bannerAboutUs .wrapper {
+    height: 90%;
+    overflow: hidden;
+  }
 
 
 
@@ -4879,15 +4883,15 @@ select {
    .bannerAboutUs .wrapper {
     height: calc(100% - 80px);
     }
-    .bannerAboutUsFlex {
-        height: 100%;
-    }
     .bannerAboutUsFlex .bannerLeft h1{
         font-size: 40px;
         line-height: 120%;
     }
     .landingBanner .wrapper {
         height: calc(100% - 80px);
+       }
+       .bannerAboutUsFlex {
+        height: inherit;
        }
 } 
 
@@ -5113,7 +5117,7 @@ select {
     }
 
     .installationRight p {
-        margin-bottom: 15px;
+        margin-bottom: 25px;
     }
 
     .reliable {
@@ -7123,14 +7127,15 @@ select {
     }
 
     .articleMainLeft {
-        padding: 12px;
+        padding: 12px 0;
+        background: transparent;
+        box-shadow: none;
     }
 
     .articleMainRightForm {
         margin-left: 0;
         width: 100%;
     }
-
     .hooks .wrapper {
         padding: 0 16px;
     }
@@ -7554,7 +7559,7 @@ select {
         margin-bottom: 20px;
     }
     .prodjecItem p {
-        min-height: 300px;
+        min-height: auto;
     }
     .catalogueTabsSection {
         height: auto;
@@ -8497,6 +8502,9 @@ select {
     .allCaseContentTabsTextPosition {
         top: 8px;
         left: 8px;
+    }
+    .history .wrapper {
+        padding: 0 16px;
     }
 }
 
