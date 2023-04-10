@@ -3574,6 +3574,9 @@ select {
     position: relative;
 }
 
+.allCaseContentTabSection:nth-last-of-type(3n) {
+    margin-right: 0;
+}
 .allCaseContentTab {
     display: flex;
     align-items: center;
