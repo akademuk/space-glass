@@ -3746,7 +3746,9 @@ select {
     font-size: 15px !important;
     line-height: 140%;
 }
-
+.aboutUsText strong {
+    font-weight: 600;
+}
 .popup {
     display: none;
     /* скрываем попап по умолчанию */
@@ -3837,7 +3839,7 @@ select {
     background: url(../img/Rectangle.png), #007844;
     background-repeat: repeat;
     background-size: auto;
-    padding: 195px 0 75px 0;
+    padding: 75px 0 75px 0;
 }
 
 .bannerApplication .wrapper {
@@ -3855,6 +3857,7 @@ select {
 }
 
 .bannerApplicationLeft h1 {
+    font-family: 'Nekst';
     font-weight: bold;
     font-size: 49px;
     line-height: 140%;
@@ -4811,8 +4814,25 @@ select {
     height: 100%;
 }
 
-
-
+.installationRight {
+    height: 100%;
+}
+.installation.aboutUs .wrapper .installationLeft {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .aboutUs .wrapper .installationLeft img {
+    height: 100%;
+    max-width: none;
+    width: auto;
+    object-fit: cover;
+  }
+  
 
 
 
@@ -6916,6 +6936,12 @@ select {
     .caseProdjectBtn {
         display: none;
     }
+    .installation.aboutUs .wrapper .installationLeft {
+        width: 100%;
+    }
+    .aboutUs .wrapper .installationLeft img {
+        width: 100%;
+    }
 }
 
 /* //max-width: 767px */
@@ -7342,8 +7368,11 @@ select {
         background: url(../img/Rectangle.png), #0E8753;
         background-repeat: repeat;
         background-size: contain;
+        min-height: 200px;
     }
-
+    .aboutUsSection.boldText p{
+        font-size: 29px !important;
+    }
     .reliableRightSection {
         padding: 25px 8px 16px 8px;
     }
@@ -7525,7 +7554,7 @@ select {
         margin-bottom: 20px;
     }
     .prodjecItem p {
-        min-height: auto;
+        min-height: 300px;
     }
     .catalogueTabsSection {
         height: auto;
@@ -8368,8 +8397,8 @@ select {
     }
 
     .bannerApplication {
-        padding-top: 100px;
-        padding-bottom: 48px;
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
 
     .bannerApplication .wrapper {
@@ -8389,9 +8418,13 @@ select {
 
     .bannerApplicationLeft p {
         font-size: 19px;
+        margin-bottom: 32px;
         line-height: 140%;
     }
-
+    .bannerApplicationLeft a {
+         min-width: 343px;
+         width: 100%;
+    }
     .catalogueTab {
         overflow-x: scroll;
     }
