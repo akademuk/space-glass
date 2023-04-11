@@ -358,7 +358,7 @@
         </div>
     </section><!--Burger Menu-->
       
-    <section class="banner landingBanner landingCardBannerS">
+    <section class="banner landingBanner">
         <div class="breadcrumb">
             <a href="index.html" class="breadcrumbHome">
                 <img src="img/homeWhite.svg" alt="home">
@@ -372,14 +372,54 @@
         </div>
         <div class="wrapper landingCardBanner">
             <div class="bannerLeft">
-                <h1>Безрамне скління терас та альтанок</h1>
+                <h1>Безрамне <br> скління терас <br> та альтанок</h1>
                 <p>Створюємо комфортні умови поряд з природою</p>
                 <a class="popup-button">Залишити заявку
                     <img src="img/arrow.svg" alt="arrow">
                 </a>
             </div>
             <div class="bannerRight">
-                <img src="img/landingBanner.png" alt="">
+                <div class="slider slider-x">
+                    <div class="sliderItem">
+                        <img src="img/bannerLandingCard1.png" alt="">
+                    </div>
+                    <div class="sliderItem">
+                        <img src="img/bannerLandingCard1.png" alt="">
+                    </div>
+                </div>
+                <div class="sliderContainerFlex">
+                    <div class="slider slider-nav">
+                        <div class="sliderItem">
+                            <img src="img/bannerLandingCard2.png" alt="">
+                        </div>
+                        <div class="sliderItem">
+                            <img src="img/bannerLandingCard2.png" alt="">
+                        </div>
+                    </div>
+                    <div class="slider slider-for">
+                        <div class="sliderItem">
+                            <img src="img/bannerLandingCard3.png" alt="">
+                        </div>
+                        <div class="sliderItem">
+                            <img src="img/bannerLandingCard3.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="navigationBanner">
+                    <div class="bannerDots"></div>
+                    <div class="arrowsBanner">
+                        <div class="bannerPrev">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M6.42275 5.24408C6.74819 5.56951 6.74819 6.09715 6.42275 6.42259L3.67867 9.16667H18.3335C18.7937 9.16667 19.1668 9.53976 19.1668 10C19.1668 10.4602 18.7937 10.8333 18.3335 10.8333H3.67867L6.42275 13.5774C6.74819 13.9028 6.74819 14.4305 6.42275 14.7559C6.09731 15.0814 5.56968 15.0814 5.24424 14.7559L1.07757 10.5893C0.752137 10.2638 0.752137 9.73618 1.07757 9.41074L5.24424 5.24408C5.56968 4.91864 6.09731 4.91864 6.42275 5.24408Z" fill="#E9E9E9"/>
+                            </svg> 
+                        </div>
+                        <div class="bannerNext">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M13.5776 13.5774C13.2521 13.9028 13.2521 14.4305 13.5776 14.7559C13.903 15.0814 14.4306 15.0814 14.7561 14.7559L18.9228 10.5893C19.2482 10.2638 19.2482 9.73618 18.9228 9.41075L14.7561 5.24408C14.4306 4.91864 13.903 4.91864 13.5776 5.24408C13.2521 5.56951 13.2521 6.09715 13.5776 6.42259L16.3217 9.16667H1.66683C1.20659 9.16667 0.833496 9.53976 0.833496 10C0.833496 10.4602 1.20659 10.8333 1.66683 10.8333H16.3217L13.5776 13.5774Z" fill="#E9E9E9"/>
+                            </svg>    
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section><!--Banner--> 
@@ -671,6 +711,7 @@
     <script src="https://code.jquery.com/jquery-3.6.2.min.js" crossorigin="anonymous"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="script/burger.js"></script>
+    <script src="script/sliderBanner.js"></script>
     <script src="script/landingCardFoto.js"></script>
     <script>
         $(function() {                     

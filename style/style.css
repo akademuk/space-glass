@@ -3152,7 +3152,7 @@ select {
 }
 
 .bannerCaseContentLeft>p {
-    font-size: 19px;
+    font-size: 15px;
     color: #363636;
     margin-bottom: 40px;
 }
@@ -3461,7 +3461,6 @@ select {
 }
 
 .caseFormLeftFlexText>span {
-    font-weight: bold;
     color: #007844;
 }
 
@@ -5569,6 +5568,15 @@ select {
     .prodjecItem p {
         min-height: 230px;
     }
+    .banner {
+        max-height: 100%;
+    }
+    .landingCardBanner .slider-nav {
+        height: 200px;
+    }
+    .landingCardBanner .slider-for {
+        height: 250px;
+    }
 }
 
 /* //max-width: 1200px */
@@ -6202,6 +6210,9 @@ select {
     .landingAdvantagesInfoLeft img {
         object-fit: cover;
     object-position: center;
+    }
+    .landingCardBanner .bannerRight {
+        width: 600px;
     }
 }
 
@@ -6981,6 +6992,9 @@ select {
     }
     .aboutUs .wrapper .installationLeft img {
         width: 100%;
+    }
+    .landingCardBanner .bannerRight {
+        width: 500px;
     }
 }
 
@@ -8487,17 +8501,23 @@ select {
     }
 
     .landingBanner .breadcrumb {
-        margin-bottom: 48px;
+        margin-bottom: 97px;
+    }
+    .landingCardBanner .bannerLeft h1 {
+        margin-bottom: 8px;
+    }
+    .landingCardBanner .bannerLeft > p {
+        width: 100%;
+        text-align: left;
     }
     .bannerLeft h1 br{
        display: none;
     }
-    .landingCardBanner .bannerRight {
-        width: 100%;
-        height: 235px;
-    }
     .landingBannerFlex {
         display: none;
+    }
+    .landingBanner {
+        padding-bottom: 95px;
     }
     .bannerLeft>p {
         text-align: left;
